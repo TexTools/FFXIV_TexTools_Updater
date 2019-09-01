@@ -1,0 +1,15 @@
+Increased functionality:
+1.Add Mod Convert to the mods menu to modify the Affects/Replaces of the Mod package.
+
+fix bug:
+1.Dae import logic error
+2.Dae import exception
+3.After a few dae import and export, UV confusion
+
+功能增加：
+1.mods菜单增加"mod转换器"，可以修改mod所影响的替换项
+
+BUG修复：
+1.修复dae导入逻辑错误
+2.修复dae导入异常
+3.修复部分dae导入导出后，uv错乱
