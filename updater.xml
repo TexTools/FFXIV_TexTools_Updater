@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
-    <version>2.0.7.71</version>
-    <url>https://github.com/esrinzou/FFXIV_TexTools_UI/releases/download/v2.0.7.71/TexToolsPreviewPatch2.0.7.71.zip</url>
+    <version>2.0.7.72</version>
+    <url>https://github.com/esrinzou/FFXIV_TexTools_UI/releases/download/v2.0.7.72/TexToolsPreviewPatch2.0.7.72.zip</url>
     <changelog>https://raw.githubusercontent.com/esrinzou/FFXIV_TexTools_Preview/master/changelog.txt</changelog>
     <mandatory>true</mandatory>
 </item>

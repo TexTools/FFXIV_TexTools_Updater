@@ -1,3 +1,9 @@
+2019-9-2：
+Function optimization:
+1.Multilingual mod converter UI
+Fix bug:
+1.Advanced import, weight correction exception
+
 2019-9-1：
 Increased functionality:
 1.Add Mod Convert to the mods menu to modify the Affects/Replaces of the Mod package.
