@@ -4,6 +4,11 @@ Function optimization:
 Fix bug:
 1.Advanced import, weight correction exception
 
+功能优化:
+1.MOD转换器中文化
+BUG修复：
+1.高级导入权重修正异常
+
 2019-9-1：
 Increased functionality:
 1.Add Mod Convert to the mods menu to modify the Affects/Replaces of the Mod package.
