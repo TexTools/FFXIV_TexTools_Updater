@@ -1,3 +1,15 @@
+2019-9-3：
+Version:2.0.7.73
+Function optimization:
+1.“Add New Texture Part”is adjusted to support only "Gear" and "Character".
+Fix bug:
+1."Add New Texture Part”related bug
+
+功能优化:
+1."添加新贴图组"调整为只支持"装备"和"角色"
+BUG修复：
+1."添加新贴图组"相关bug
+
 2019-9-2：
 Version:2.0.7.72
 Function optimization:
