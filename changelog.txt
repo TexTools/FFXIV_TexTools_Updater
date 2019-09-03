@@ -1,4 +1,11 @@
 2019-9-3：
+Version:2.0.7.74
+Emergency repair, version compilation error
+
+紧急修复，版本编译错误
+
+
+2019-9-3：（error version）
 Version:2.0.7.73
 Function optimization:
 1.“Add New Texture Part”is adjusted to support only "Gear" and "Character".
