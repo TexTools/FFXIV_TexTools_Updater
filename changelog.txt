@@ -1,48 +1,18 @@
-2019-9-3：
-Version:2.0.7.74
-Emergency repair, version compilation error
+2019-9-4：
+Version:2.0.7.75
 
-紧急修复，版本编译错误
+Add New Texture Part：
+  BUG fixed: 
+    1.After adding a map group to some items, the new map group can't work.
 
+Advanced import:
+  BUG fixed:
+    1.After some dae is imported, the model does not display properly in the game.
 
-2019-9-3：（error version）
-Version:2.0.7.73
-Function optimization:
-1.“Add New Texture Part”is adjusted to support only "Gear" and "Character".
-Fix bug:
-1."Add New Texture Part”related bug
+添加贴图组:
+  BUG修复:
+    1.部分道具添加新贴图组后，新贴图组不起作用
 
-功能优化:
-1."添加新贴图组"调整为只支持"装备"和"角色"
-BUG修复：
-1."添加新贴图组"相关bug
-
-2019-9-2：
-Version:2.0.7.72
-Function optimization:
-1.Multilingual mod converter UI
-Fix bug:
-1.Advanced import, weight correction exception
-
-功能优化:
-1.MOD转换器中文化
-BUG修复：
-1.高级导入权重修正异常
-
-2019-9-1：
-Version:2.0.7.71
-Increased functionality:
-1.Add Mod Convert to the mods menu to modify the Affects/Replaces of the Mod package.
-
-fix bug:
-1.Dae import logic error
-2.Dae import exception
-3.After a few dae import and export, UV confusion
-
-功能增加：
-1.mods菜单增加"mod转换器"，可以修改mod所影响的替换项
-
-BUG修复：
-1.修复dae导入逻辑错误
-2.修复dae导入异常
-3.修复部分dae导入导出后，uv错乱
+高级导入:
+  BUG修复:
+    1.部分dae导入后，模型在游戏中不正常显示
