@@ -1,29 +1,38 @@
 2019-9-4：
-Version:2.0.7.76
+Version:2.0.7.77
+Item List
+  BUG fixed:
+    1.Fix "item list" select ui item, program exception
+Advanced import:
+  BUG fixed:
+    1.Fix possible errors in dae import
+道具列表:
+  BUG修复:
+    1.修复道具列表中选择UI子项程序异常
+高级导入:
+  BUG修复:
+    1.修复dae导入可能存在的错误
 
+2019-9-4：
+Version:2.0.7.76
 Advanced import:
   BUG fixed:
     1.Some dae import exceptions
-
 高级导入:
   BUG修复:
     1.一些dae导入异常
 
 2019-9-4：
 Version:2.0.7.75
-
 Add New Texture Part：
   BUG fixed: 
     1.After adding a map group to some items, the new map group can't work.
-
 Advanced import:
   BUG fixed:
     1.After some dae is imported, the model does not display properly in the game.
-
 添加贴图组:
   BUG修复:
     1.部分道具添加新贴图组后，新贴图组不起作用
-
 高级导入:
   BUG修复:
     1.部分dae导入后，模型在游戏中不正常显示
