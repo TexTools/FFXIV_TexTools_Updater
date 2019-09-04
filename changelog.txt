@@ -1,4 +1,15 @@
 2019-9-4：
+Version:2.0.7.76
+
+Advanced import:
+  BUG fixed:
+    1.Some dae import exceptions
+
+高级导入:
+  BUG修复:
+    1.一些dae导入异常
+
+2019-9-4：
 Version:2.0.7.75
 
 Add New Texture Part：
