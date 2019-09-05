@@ -1,3 +1,18 @@
+2019-9-6：
+Version:2.0.7.79
+Mod Converter:
+  Fixed:
+    1.The converter is not working properly
+MOD package creation wizard
+  Fixed:
+    1.Single option does not set the default value properly
+MOD转换器:
+  修复:
+    1.转换器无法正常工作
+MOD包创建向导:
+  修复:
+    1.单选项无法正常设置默认值  
+
 2019-9-5：
 Version:2.0.7.78
 Simple ModPack Creator:
