@@ -1,4 +1,13 @@
 2019-9-6：
+Version:2.0.7.80
+MOD package wizard
+  Changed:
+    1.Fill in and display the mod description, now you are free to add new lines.
+MOD包向导:
+  改变:
+    1.填写和展示mod描述，现在可以自由添加新行了。
+
+2019-9-6：
 Version:2.0.7.79
 Mod Converter:
   Fixed:
