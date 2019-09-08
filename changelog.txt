@@ -1,3 +1,14 @@
+2019-9-8：
+Version:2.0.7.81
+Mod Converter:
+  Fixed:
+    1.Now it can be converted across languages and across servers.
+    2.Fix part ttmp converted model and texture exception
+  修复:
+    1.现在可以跨语言跨服务器转换了
+    2.修复部分ttmp转换后模型和贴图异常
+
+
 2019-9-6：
 Version:2.0.7.80
 MOD package wizard
