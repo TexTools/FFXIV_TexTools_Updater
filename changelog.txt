@@ -1,3 +1,9 @@
+2019-9-19：
+Version:2.0.7.84
+Advanced import:
+  BUG fixed:
+    1.After "Disable Shape Data", the model is still damaged.
+
 2019-9-15：
 Version:2.0.7.83
 Advanced import:
