@@ -1,3 +1,12 @@
+2019-9-24：
+Version:2.0.7.85
+Advanced import:
+  BUG fixed:
+    1.Unable to open advanced import after "Disable Shape Data".
+高级导入:
+  BUG修复:
+    1."禁用形状数据"后无法打开高级导入.
+
 2019-9-19：
 Version:2.0.7.84
 Advanced import:
