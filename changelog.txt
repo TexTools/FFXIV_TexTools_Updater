@@ -1,4 +1,15 @@
 2019-9-24：
+Version:2.0.7.86
+Advanced import:
+  BUG fixed:
+    1.Part of the model "disable shape data" caused the game to crash.
+     Note: If you find that Advanced Import cannot be opened, disable it and re-import to get back to normal.(is Version:2.0.7.84 bug,86 has been re-adjusted)
+高级导入:
+  BUG修复:
+    1.部分模型"disable shape data"后导致游戏奔溃.
+    注意:如果发现”高级导入"无法打开，请禁用它并重新导入，便可恢复正常。
+
+2019-9-24：
 Version:2.0.7.85
 Advanced import:
   BUG fixed:
