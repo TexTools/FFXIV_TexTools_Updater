@@ -1,3 +1,10 @@
+2019-12-27:
+Version:2.0.10.1
+BUG fixed:
+ 1.Chinese version cannot load data correctly
+BUG修复:
+ 1.中文版无法正确加载数据
+
 2019-10-16:
 Version:2.0.7.87
 BUG fixed:
