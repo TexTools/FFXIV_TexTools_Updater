@@ -1,3 +1,10 @@
+2020-1-21:
+Version:2.0.10.2
+BUG fixed:
+ 1.Fixing server-related issues in China
+BUG修复:
+ 1.修复[国服MOD交流群]链接失效的BUG
+
 2019-12-27:
 Version:2.0.10.1
 BUG fixed:
