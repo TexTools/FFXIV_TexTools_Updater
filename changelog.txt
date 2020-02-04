@@ -1,4 +1,9 @@
 2020-2-4:
+Version:2.0.10.5
+Bugfixes:
+-	Fixed TexTools crashing when double clicking a modpack to import it
+
+2020-2-4:
 Version:2.0.10.4
 Bugfixes:
 -	Fixed the regular import button (should no longer give the not an instance of an object error)
