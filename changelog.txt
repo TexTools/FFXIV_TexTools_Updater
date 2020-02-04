@@ -1,4 +1,9 @@
 2020-2-4:
+Version:2.0.10.6
+Bugfixes:
+-	Fixed Mod Converter crashing due to JSON errors
+
+2020-2-4:
 Version:2.0.10.5
 Bugfixes:
 -	Fixed TexTools crashing when double clicking a modpack to import it
