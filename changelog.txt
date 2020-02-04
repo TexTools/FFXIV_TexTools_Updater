@@ -1,3 +1,10 @@
+2020-2-4:
+Version:2.0.10.3
+BUG fixed:
+  1.The Chinese version of the game is updated to 5.1, the file structure changes, causing the program to crash
+BUG修复:
+  1.中文版游戏更新到5.1，文件结构变化，导致程序奔溃
+
 2020-1-21:
 Version:2.0.10.2
 BUG fixed:
