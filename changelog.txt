@@ -1,36 +1,43 @@
+2020-2-11:
+Version:2.0.10.7
+Bugfixes:
+- Fixed a crash after importing a wizard modpack by file association
+Other:
+- Added exception for when vertex limits are exceeded
+
 2020-2-4:
 Version:2.0.10.6
 Bugfixes:
--	Fixed Mod Converter crashing due to JSON errors
+- Fixed Mod Converter crashing due to JSON errors
 
 2020-2-4:
 Version:2.0.10.5
 Bugfixes:
--	Fixed TexTools crashing when double clicking a modpack to import it
+- Fixed TexTools crashing when double clicking a modpack to import it
 
 2020-2-4:
 Version:2.0.10.4
 Bugfixes:
--	Fixed the regular import button (should no longer give the not an instance of an object error)
--	Fixed a skeleton related error caused by an empty line in the skel file
--	Fixed TexTools crashing when attempting to import a colourset from an undyeable item onto a dyeable item
--	Fixed the wrong materials getting assigned to the meshes in 3dsMax
-- 	Fixed importing of old first version TTMPs
+- Fixed the regular import button (should no longer give the not an instance of an object error)
+- Fixed a skeleton related error caused by an empty line in the skel file
+- Fixed TexTools crashing when attempting to import a colourset from an undyeable item onto a dyeable item
+- Fixed the wrong materials getting assigned to the meshes in 3dsMax
+- Fixed importing of old first version TTMPs
 
 Improved user feedback:
--	Added an extra DDS type check and error to the colourset import
--	Added a more descriptive error message when an attempt is made to import a mesh that is missing bones/weights/skin modifier
--	Added a more descriptive error message when the mesh number can't be read from the mesh name
--	The texture/model tab now gets its view refreshed upon importing a modpack or closing the modlist
--	Added a column that shows the texture mod's part (a, b, c, etc.) in the simple modpack creator and importer
--	Replaced the type field in the modlist preview window with the mod's number (this allows you to see what hair/face/tail the mod is on in the modlist)
+- Added an extra DDS type check and error to the colourset import
+- Added a more descriptive error message when an attempt is made to import a mesh that is missing bones/weights/skin modifier
+- Added a more descriptive error message when the mesh number can't be read from the mesh name
+- The texture/model tab now gets its view refreshed upon importing a modpack or closing the modlist
+- Added a column that shows the texture mod's part (a, b, c, etc.) in the simple modpack creator and importer
+- Replaced the type field in the modlist preview window with the mod's number (this allows you to see what hair/face/tail the mod is on in the modlist)
 
 Other quality of life changes:
--	Disabled toggling enable/disable on matadd textures as it didn't do anything other than cause unnecessary function calls and potentially crashing TexTools
--	The modlist now again is sorted alphabetically
--	Added the ability to use | (OR) in the simple modpack creator to be able to search for multiple items at once
--	Saves the state of the shape data disable checkbox
-- 	Added the option to overwrite existing modpacks with the same name
+- Disabled toggling enable/disable on matadd textures as it didn't do anything other than cause unnecessary function calls and potentially crashing TexTools
+- The modlist now again is sorted alphabetically
+- Added the ability to use | (OR) in the simple modpack creator to be able to search for multiple items at once
+- Saves the state of the shape data disable checkbox
+- Added the option to overwrite existing modpacks with the same name
 
 2020-2-4:
 Version:2.0.10.3
