@@ -1,3 +1,13 @@
+2020-2-16:
+Version:2.0.10.8
+Bugfixes:
+- Fixed missing vertex colour data on a mesh part causing the vertex colours to shift across the mesh
+- Fixed crashes inside the ModPack Wizard creator when trying to add a DAE through regular import
+Other:
+- Added exception when importing a DAE that skips a mesh group
+- Added a toggle to the mod list to switch between sorting by name or installation order
+- Changed the mod converter's search to be case insensitive
+
 2020-2-11:
 Version:2.0.10.7
 Bugfixes:
