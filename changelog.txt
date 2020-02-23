@@ -1,3 +1,10 @@
+2020-2-23:
+Version:2.0.11.1
+Fix:
+-Because the international service is upgraded to 5.2, the modified Chinese version is abnormal
+修复:
+-由于国际服升级为5.2，修改后中文版本异常
+
 2020-2-18:
 Version:2.0.11.0
 Other:
