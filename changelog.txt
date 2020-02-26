@@ -1,9 +1,24 @@
+2020-2-26:
+Version:2.0.11.2
+General improvements/fixes:
+  - Fixed TexTools not properly cleaning up temporary files when importing a modpack
+  - TexTools now also backs up the 0a0000 indexes
+  - TexTools can now repair a broken modlist through Start Over/Check For Problems
+  - Added a progress indicator to the Start Over process to hopefully prevent users from cancelling midway
+  - TexTools settings are loaded earlier so that language and theme selection choices are retained between versions
+  - Improved the general item search to support separate keywords (i.e. dress quaint will return Quaintrelle's Ruffled Dress)
+  - Replaced an expired Discord invite
+Importer improvements:
+  - Forces equipment and body meshes (except faces) into the [1, -1] quadrant
+  - Defaults vertex alphas to (1,0) to prevent invisible meshes
+  - To keep the advanced import list and 3dsMax consistent, dummies are no longer removed (this also fixed a bug where mesh parts weren't getting imported in certain situations)
+   
 2020-2-23:
 Version:2.0.11.1
 Fix:
--Because the international service is upgraded to 5.2, the modified Chinese version is abnormal
+- Because the international service is upgraded to 5.2, the modified Chinese version is abnormal
 修复:
--由于国际服升级为5.2，修改后中文版本异常
+- 由于国际服升级为5.2，修改后中文版本异常
 
 2020-2-18:
 Version:2.0.11.0
