@@ -1,4 +1,12 @@
 2020-2-26:
+Version:2.0.11.3
+Bug fixes:
+- Check for problems now also checks if the 0a0000 index backup is outdated
+- Fixed inconsistencies between language resources causing TT to get stuck trying to load the incorrect files
+- Fixed TexTools getting stuck indefinitely when loading an item fails
+- Fixed crashes during modpack creation by preventing the use of invalid characters in the modpack name
+
+2020-2-26:
 Version:2.0.11.2
 General improvements/fixes:
   - Fixed TexTools not properly cleaning up temporary files when importing a modpack
@@ -27,7 +35,7 @@ Other:
 
 2020-2-16:
 Version:2.0.10.8
-Bugfixes:
+Bug fixes:
 - Fixed missing vertex colour data on a mesh part causing the vertex colours to shift across the mesh
 - Fixed crashes inside the ModPack Wizard creator when trying to add a DAE through regular import
 Other:
@@ -37,24 +45,24 @@ Other:
 
 2020-2-11:
 Version:2.0.10.7
-Bugfixes:
+Bug fixes:
 - Fixed a crash after importing a wizard modpack by file association
 Other:
 - Added exception for when vertex limits are exceeded
 
 2020-2-4:
 Version:2.0.10.6
-Bugfixes:
+Bug fixes:
 - Fixed Mod Converter crashing due to JSON errors
 
 2020-2-4:
 Version:2.0.10.5
-Bugfixes:
+Bug fixes:
 - Fixed TexTools crashing when double clicking a modpack to import it
 
 2020-2-4:
 Version:2.0.10.4
-Bugfixes:
+Bug fixes:
 - Fixed the regular import button (should no longer give the not an instance of an object error)
 - Fixed a skeleton related error caused by an empty line in the skel file
 - Fixed TexTools crashing when attempting to import a colourset from an undyeable item onto a dyeable item
