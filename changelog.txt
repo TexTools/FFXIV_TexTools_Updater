@@ -1,4 +1,9 @@
 2020-3-1:
+Version:2.0.11.5
+Bug fixes:
+- Fixed crashes when trying to view textures under the UI category
+
+2020-3-1:
 Version:2.0.11.4
 Bug fixes:
  - Fixed the main item search not ignoring caps
