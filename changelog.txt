@@ -1,3 +1,17 @@
+2020-3-1:
+Version:2.0.11.4
+Bug fixes:
+ - Fixed the main item search not ignoring caps
+ - Fixed TexTools crashing when opening the simple modpack creator with demihuman mods installed
+ - Fixed TexTools crashing when textures that a 3D model is referring to are missing by disabling the mod on the 3D model
+ - Added an error message when trying to import a non-OpenCOLLADA DAE
+Other:
+ - Disabled the material addition button on unsupported categories
+New features:
+ - MipMap information is now shown when viewing textures
+ - The default behaviour of forcing UV1 coordinates to the U1V-1 quadrant has been replaced with a setting checkbox in the advanced import window
+ - Another setting checkbox was added to the advanced import window to have the option to clone UV1 to UV2 outside 3ds Max
+
 2020-2-26:
 Version:2.0.11.3
 Bug fixes:
@@ -9,17 +23,17 @@ Bug fixes:
 2020-2-26:
 Version:2.0.11.2
 General improvements/fixes:
-  - Fixed TexTools not properly cleaning up temporary files when importing a modpack
-  - TexTools now also backs up the 0a0000 indexes
-  - TexTools can now repair a broken modlist through Start Over/Check For Problems
-  - Added a progress indicator to the Start Over process to hopefully prevent users from cancelling midway
-  - TexTools settings are loaded earlier so that language and theme selection choices are retained between versions
-  - Improved the general item search to support separate keywords (i.e. dress quaint will return Quaintrelle's Ruffled Dress)
-  - Replaced an expired Discord invite
+- Fixed TexTools not properly cleaning up temporary files when importing a modpack
+- TexTools now also backs up the 0a0000 indexes
+- TexTools can now repair a broken modlist through Start Over/Check For Problems
+- Added a progress indicator to the Start Over process to hopefully prevent users from cancelling midway
+- TexTools settings are loaded earlier so that language and theme selection choices are retained between versions
+- Improved the general item search to support separate keywords (i.e. dress quaint will return Quaintrelle's Ruffled Dress)
+- Replaced an expired Discord invite
 Importer improvements:
-  - Forces equipment and body meshes (except faces) into the [1, -1] quadrant
-  - Defaults vertex alphas to (1,0) to prevent invisible meshes
-  - To keep the advanced import list and 3dsMax consistent, dummies are no longer removed (this also fixed a bug where mesh parts weren't getting imported in certain situations)
+- Forces equipment and body meshes (except faces) into the [1, -1] quadrant
+- Defaults vertex alphas to (1,0) to prevent invisible meshes
+- To keep the advanced import list and 3dsMax consistent, dummies are no longer removed (this also fixed a bug where mesh parts weren't getting imported in certain situations)
    
 2020-2-23:
 Version:2.0.11.1
