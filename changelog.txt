@@ -1,3 +1,10 @@
+2020-3-4:
+Version:2.0.11.6
+Bug fixes:
+ - Fixed key not found error when importing a DAE onto an item with fewer mesh groups
+ - Fixed the advanced import extra setting checkboxes not setting values in certain situations
+ - Fixed the clone UV1 to UV2 setting not cloning UV1 indices
+
 2020-3-1:
 Version:2.0.11.5
 Bug fixes:
