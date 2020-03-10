@@ -1,3 +1,8 @@
+2020-3-10:
+Version:2.0.11.7
+Bug fixes:
+- Fixed an error upon loading a simple modpack containing multi-material demihuman mods into the importer
+
 2020-3-4:
 Version:2.0.11.6
 Bug fixes:
