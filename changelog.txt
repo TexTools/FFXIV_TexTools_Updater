@@ -1,3 +1,18 @@
+2020-3-17:
+Version:2.0.11.8
+Bug fixes:
+- Fixed some DAEs only consisting of dummies when imported into 3ds Max using the OpenCOLLADA importer
+- Fixed material addition mods showing up as invisible after moving them to a different item using the mod converter
+- Fixed some errors during basic import
+- Fixed UV2 data not getting added to the MDL properly during advanced import
+Other:
+- Added proper error handling to the mod converter so that it doesn't crash TexTools
+- Added an error for when only some vertices in a mesh are missing weight data
+- Sped up the loading of the simple modpack creator/importer (from 24 seconds to 7 seconds with roughly 800 mod entries)
+- Removed dummies at the ends of mesh groups in exported DAEs
+New features:
+- Added the ability to mod umbrellas
+
 2020-3-10:
 Version:2.0.11.7
 Bug fixes:
