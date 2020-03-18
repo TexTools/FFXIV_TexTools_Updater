@@ -1,4 +1,9 @@
 2020-3-18:
+Vesion:2.0.11.10
+Bug fixes: 
+- Fixed importing furnishing giving a missing weight data error
+
+2020-3-18:
 Version:2.0.11.9
 Bug fixes:
 -Fixed the abnormal startup of the Chinese version
