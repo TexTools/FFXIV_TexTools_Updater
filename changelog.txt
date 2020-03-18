@@ -1,3 +1,10 @@
+2020-3-18:
+Version:2.0.11.9
+Bug fixes:
+-Fixed the abnormal startup of the Chinese version
+修复:
+中文版本启动异常
+
 2020-3-17:
 Version:2.0.11.8
 Bug fixes:
