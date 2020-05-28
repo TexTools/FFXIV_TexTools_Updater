@@ -1,3 +1,15 @@
+2020-5-29:
+Version:2.0.11.11
+Bug fixes:
+- Fixed importing of face 3D models (Huge thanks to Sel for this fix), old rules still apply:
+	- Place new mesh parts in their own group
+	- Deleting or adding geometry in the existing groups will likely break things
+- Fixed some crashes when trying to access monster assets through model ID search
+Improvements:
+- Major improvements to the weight correction dialog window (Also big thanks to Sel)
+Other:
+- The libraries required to import bmp files are included in this release
+
 2020-3-18:
 Vesion:2.0.11.10
 Bug fixes: 
