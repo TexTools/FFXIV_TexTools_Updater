@@ -1,3 +1,8 @@
+2020-5-31:
+Version:2.0.11.13
+Bug fixes:
+- Fixed a key not found in dictionary error when trying to import certain 3D models
+
 2020-5-30:
 Version:2.0.11.12
 Bug fixes:
