@@ -1,3 +1,9 @@
+2020-6-4:
+Version:2.0.11.15：
+Bug fixes:
+- Fixed a key already added to dictionary error when importing a Blender DAE (by Yuuki & MissAniThrope)
+- Overhauled the handling of tangent data (by Sel)
+
 2020-6-3:
 Version:2.0.11.14
 New features:
