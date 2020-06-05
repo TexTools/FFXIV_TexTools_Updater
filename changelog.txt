@@ -1,3 +1,12 @@
+2020-6-5:
+Version:2.0.11.16:
+Bug fixes:
+- Improvements to the handling of tangent data causing errors on import and seams in game (by Sel)
+Other: 
+- Improvements to the model preview, loading should be quicker and the preview should be more like in-game (by Sel)
+New features:
+- Added support for importing/exporting PNGs (by Yuuki & MissAniThrope)
+
 2020-6-4:
 Version:2.0.11.15：
 Bug fixes:
