@@ -1,3 +1,12 @@
+2020-6-10:
+Version:2.0.11.17:
+Bug fixes:
+- Fixed an error when trying to load the preview of some furniture models (by Sel)
+- Fixed textures getting an incorrect number of MipMaps when importing a PNG/BMP (by Yuuki)
+Improvements:
+- Dramatically sped up the loading of mod entries in the simple Modpack creator (by Yuuki)
+- Importing/exporting textures now has a visual feedback (by Yuuki)
+
 2020-6-5:
 Version:2.0.11.16:
 Bug fixes:
