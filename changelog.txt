@@ -1,3 +1,13 @@
+2020-6-12:
+Version:2.0.11.18:
+Bug fixes:
+- Fixed the visual feedback on export/import getting stuck the first try (by Yuuki)
+- Fixed 'Select Active' in the Simple Modpack Creator only selecting any active mods that are visible (by Yuuki)
+- Fixed some issues with modded furniture disappearing when getting too close (by Sel)
+- Fixed certain textures falling under the 'Other' category not showing up in the Wizard Modpack Creator (by Sel)
+Other:
+- Restored the original behaviour where the bottom flyout disappeared again after adding a new material (by Yuuki)
+
 2020-6-10:
 Version:2.0.11.17:
 Bug fixes:
