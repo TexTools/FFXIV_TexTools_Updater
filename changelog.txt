@@ -1,3 +1,8 @@
+2020-6-27:
+Version:2.0.12.1:
+Bug fixes:
+- Fixed material addition not creating materials for all variants in some cases (by Sel)
+
 2020-6-26:
 Version:2.0.12.0:
 Bug fixes:
