@@ -1,3 +1,17 @@
+2020-6-26:
+Version:2.0.12.0:
+Bug fixes:
+- Fix for Direct Export->Import resulting in the UV2 and Vertex alpha data being messed up for parts after the first. (by Sel)
+- Fixed a minor bug resulting in an error when secondary texture data is missing
+New features: (big thanks to Sel for these)
+- Material editor (this editor also replaces the existing transparency and new material buttons)
+- Removal of DDS type restrictions on texture import
+  - PNG/BMP will import it as whatever the current DDS type is.
+  - Will probably be adjusted later so you select what DDS format you want them converted to.
+- Added the ability to Import PNG/BMP files in the Modpack Wizard
+Other:
+- Creating a new Material now creates fresh blank texture and colorset files, rather than copying the existing ones into the new material. (by Sel)
+
 2020-6-17:
 Version:2.0.11.19:
 Improvements:
