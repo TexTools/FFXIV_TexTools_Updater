@@ -1,3 +1,20 @@
+2020-7-1:
+Version:2.0.12.5:
+Bug fixes:
+- Fixed a crash bug when switching between items too fast in the main menu
+- Fixed an issue with modpacks with the same file in them redundantly creating redundant mod list entries on import
+
+Material editor:
+- Significant changes to the Material Editor interface to make it easier to use
+  - Now Preset driven
+  - Now displays status during long operations (save/etc.)
+  - Can now copy/paste entire materials via the Editor
+  - Can now edit all Variant materials at the same time
+  - Can now disable/delete material edits directly from the Material Editor
+  - Material Editor now re-selects the material you were just editing/just created after saving
+  - Skin, Hair, and Iris Shaders now work appropriately on all gear, with presets
+  - Glass and Standard Shader have had presets updated to help avoid ending up in broken states
+
 2020-6-30:
 Version:2.0.12.4:
 Bug fixes:
