@@ -1,3 +1,11 @@
+2020-7-4:
+Version:2.0.12.6:
+Bug fixes:
+- Fixed the material identifier not incrementing automatically when using the defaults while adding a new material
+Other:
+- Enabled the dye modifiers to be imported/exported even when a colourset doesn't initially have them (items will dye when told to via CMTool, the item will still not have a dye option in the UI)
+- Added the ability to create/delete folders within the game files
+
 2020-7-1:
 Version:2.0.12.5:
 Bug fixes:
