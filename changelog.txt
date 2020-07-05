@@ -1,3 +1,10 @@
+2020-7-5:
+Version:2.0.12.7:
+Bug fixes:
+- Fixed Error with Mod files not being deleted correctly
+Other:
+- Added Caching of FFXIV data to speed up loading times
+
 2020-7-4:
 Version:2.0.12.6:
 Bug fixes:
