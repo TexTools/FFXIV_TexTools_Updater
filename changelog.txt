@@ -1,4 +1,9 @@
 2020-7-5:
+Version:2.0.12.8:
+Bug fixes:
+- Fixed errors during startup when the language was set to Chinese, Korean or French
+
+2020-7-5:
 Version:2.0.12.7:
 Bug fixes:
 - Fixed Error with Mod files not being deleted correctly
