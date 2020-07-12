@@ -1,3 +1,18 @@
+2020-7-12
+Version: 2.0.12.10
+Bug fixes:
+- Fixed crashes on column header click in the simple modpack creator/importer
+- Fixed the index backup dialog not properly getting linked to the main window
+- Fixed some equipment models listing/reading the wrong Material
+- Fixed hair textures generated for use in 3ds Max/Blender
+- Fixed VFX textures not showing up for weapons
+- Fixed crash when searching for equipment models with the model search feature
+
+Other:
+- TexTools now comes with NotAssetCc replacing the use of AssetCc2 (thanks to perchbird)
+- Added Seraph to the pet list for easier modding access
+- Item list now gets refreshed on Cache reload
+
 2020-7-7:
 Version:2.0.12.9:
 Bug fixes:
