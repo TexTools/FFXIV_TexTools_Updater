@@ -1,3 +1,47 @@
+2020-7-22
+Version: 2.1.0.0
+Bugfixes:
+ - Fixed Specular textures sometimes being ignored when added via the Material Editor.
+ - Fixed an issue with the Material Editor sometimes improperly linking textures together when creating a new material.
+ - Fixed a rare issue in which files were not being fully decompressed during file reading.
+ - Fixed issues with Simple Modpack Creator creating modpacks with an incorrect number of mods.
+ - Fixed issues with the Simple Modpack Creator de-selecting items when the search box was used.
+ - Fixed an error where mods would be partially (but not fully) disabled when attempting to disable them with FFXIV open.
+ - Fixed some startup errors with invalid game directories/settings files.
+ - Fixed localization and startup errors with the Korean & Chinese clients.
+ - Fixed issues with ProblemChecker reporting progress incorrectly.
+
+New Features:
+- 3D Model Import has been overhauled, and now uses a completely new UI/Structure
+ - .FBX Import/Export support added.
+   - This enables more consistent support for Blender, Maya, and other 3D modeling tools alongside 3DS Max.
+ - Internal .DB Import/Export support added.
+ - Shape Data can now be individually removed (rather than all at once)
+ - You can now edit model attributes of the current model without having to first export a copy of it.
+ - Group and Part names are now shown in the model editor dialog
+ - Model Attributes can now be added by their internal name or nice/human name.
+ - A new set of model-level toggles has been added on the initial import menu.
+ - Attribute Names have been cleaned up and simplified.
+ - Human-readable shape data names are now available.
+ - Custom Importer/Exporter support is now available (See the Dev Room for details)
+- Various Mount, Monster, and Furniture item's 3D Models that were not editable before are now editable / will no longer crash FFXIV or Textools.
+- There are now more color customization options available in the Customize menu.
+
+Other:
+ - Github links throughout the application have been updated.
+ - FBX Licensing info has been added to the About dialog.
+ - Significantly improved loading time and performance of the simple modpack importer screen when large amounts of mods are being imported.
+ - The 3D Model Viewer now properly respects changes to material shaders.
+ 
+Legacy / Known Bugs:
+ - DAE Export is currently still available, but will be removed in the near future.
+   - DAE _Import_ will remain for the foreseeable future as a legacy item, but it will receive no/limited updates or new features.
+ - DAE Export does not export textures with the model.
+ - DAE Import does not carry through Mesh Group names into the import dialog.
+ - Old DAE imports have their units/sizing set improperly, and may import at improper sizes.
+  - There is an option to correct this in the model editor screen.
+ - Furniture models may import with the incorrect material applied in select cases.
+
 2020-7-12
 Version: 2.0.12.10
 Bug fixes:
