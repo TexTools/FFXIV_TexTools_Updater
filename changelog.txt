@@ -1,6 +1,19 @@
+20202-7-23
+Version: 2.1.0.1
+Bug fixes:
+ - Fixed the application's interface language defaulting to the user's system language
+ - Fixed the application freezing when the model inspector is opened
+ - Fixed several issues within the simple modpack creator/importer
+ - Fixed errors trying to load previously modded 3D models with broken shape data
+
+Other:
+ - The variants tab now also shows NPC models
+ - Added unicode support to the FBX importer/exporter
+
+
 2020-7-22
 Version: 2.1.0.0
-Bugfixes:
+Bug fixes:
  - Fixed Specular textures sometimes being ignored when added via the Material Editor.
  - Fixed an issue with the Material Editor sometimes improperly linking textures together when creating a new material.
  - Fixed a rare issue in which files were not being fully decompressed during file reading.
