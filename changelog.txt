@@ -1,4 +1,15 @@
-20202-7-23
+2020-7-24
+Version: 2.1.0.2
+Bug fixes:
+ - Fixed old modded items not loading in the viewer in some cases
+ - Fixed some tail models not exporting with textures
+ - Fixed 3DS Max having models invisible on standard viewer quality
+ - Fixed 3DS Max merging meshes on scene imports (renamed groups/parts)
+ - Fixed NPC item variants being off by 1
+ - Fixed an incorrect log message when cloning UV1 to UV2
+ - Fixed part parsing in the simple modpack creator/importer for certain categories
+
+2020-7-23
 Version: 2.1.0.1
 Bug fixes:
  - Fixed the application's interface language defaulting to the user's system language
@@ -9,7 +20,6 @@ Bug fixes:
 Other:
  - The variants tab now also shows NPC models
  - Added unicode support to the FBX importer/exporter
-
 
 2020-7-22
 Version: 2.1.0.0
