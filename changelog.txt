@@ -1,4 +1,9 @@
 2020-7-26
+Version: 2.1.0.4：
+Bug fixes:
+- Fixed an error while trying to display more than 10 items under one category in the modlist
+
+2020-7-26
 Version: 2.1.0.3
 Bug fixes:
 - Fixed a bug where shape data was not always getting loaded
