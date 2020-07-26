@@ -1,3 +1,14 @@
+2020-7-26
+Version: 2.1.0.3
+Bug fixes:
+- Fixed a bug where shape data was not always getting loaded
+- Fixed a bug where the incorrect racial textures were getting exported
+- Fixed the model size getting compared to the modded model instead of the original model
+
+Other:
+- Changed the way skin colour is calculated in the 3D model preview window to more closely resemble the previous versions
+  + Skin colour settings will need to manually be changed to your preferred skin colour
+
 2020-7-24
 Version: 2.1.0.2
 Bug fixes:
