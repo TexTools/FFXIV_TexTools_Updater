@@ -1,5 +1,45 @@
+2020-8-8:
+Version: 2.2.0.0
+New features:
+  - The Item List now includes a [By Set] tab, where you can select (and search) for items by their underlying set names.
+  - A [Standard Modpack Creator] has been introduced.  This lets you select items with the new item list and automatically include all of their files necessary to make sure that your item mod looks exactly the same on the end user's screen as it does on yours.
+     * Note - Does *not* include racial skin materials/textures.
+  - A new Full Model Viewer function has been added to view fully composed character models (of any race).
+      - To use, press the "Add to FMV" button when viewing any equipment models.
+  - A new File Info screen has been added, to show what items will be affected by each file, and their relationships to each other.
+      - To use, select the Magnifying Glass icon on either the texture or model viewing screens.
+ 
+Minor improvements/changes:
+  - TexTools now has proper loading screens when it's loading/working on things.
+  - The ModList and Modpack view screens have had their displays updated with more & more correct data.
+  - [Start Over] is now significantly faster if you had many mods installed before starting over.
+  - NPC item name structure has been compacted to match their file root name.
+  - File Addition mods (Mat-Add/Texture-Add) can now be properly disabled/enabled.
+  - Large Modpack imports are ~10% faster now.  Hooray!
+  - There is now an automatic emergency index backups restore function, should the index files be broken to the extent TexTools cannot start up normally.
+ 
+Bug fixes:
+ - Fixed an issue with FBX import where normals could be calculated improperly if the base mesh had a global level rotation.
+ - Fixed an issue with MatAdd materials sometimes being named with NPC item names.
+ - Fixed an issue with Accessory models sometimes refusing to import when they were already modded.
+ - Fixed an issue with Texture files not being exported properly with model exports when the textures were cross-racial reference.
+ - Fixed multiple low-level issues which could result in Index/Dat corruption, particularly when attempting to disable/enable/add/delete mods while the game was running.
+ - Fixed multiple issues throughout the application with external assets being un-findable due to improper Working Directory values with some user setups.
+ - Fixed various issues with the Model Viewer being unable to display certain items.
+ 
+Other:
+  - You will now see a [Cache Queue] notification in the bottom left of TexTools.  This data is used to power some of the new displays in the modpack menus.  You can still do everything as normal in TexTools and FFXIV while it's working, just know that some data may be missing on the ModPack screens until it's done.
+ 
+  + This will be the last major patch to include any DAE support.  DAE-based functionality will be removed next major patch.
+
+Known issues:
+  - Standard Modpack Creator does not include Left Ring Models in Ring exports.
+	- This can be remedied by selecting the Left Ring manually in the Sets list in addition to the normal ring.
+  - Certain offhand items do not display their textures/materials in the textures tab.
+    - These items use their associated Main Hand item's textures/materials.
+
 2020-7-26
-Version: 2.1.0.4：
+Version: 2.1.0.4
 Bug fixes:
 - Fixed an error while trying to display more than 10 items under one category in the modlist
 
