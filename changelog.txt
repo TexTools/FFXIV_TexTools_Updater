@@ -1,3 +1,12 @@
+2020-8-9:
+Version: 2.2.0.1
+Bug fixes: 
+ - Fixed crashes when attempting to open the mod converter
+ - Fixed dat files being created too early causing a data limit error
+ - Fixed TexTools reporting 0 mods having been imported after importing a modpack
+ - Fixed an issue where tails were not using the correct texture in the full model viewer
+ - Fixed a crash in the full model viewer when attempting to select a skeleton with no models loaded
+
 2020-8-8:
 Version: 2.2.0.0
 New features:
