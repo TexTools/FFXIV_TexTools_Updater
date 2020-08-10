@@ -1,3 +1,11 @@
+2020-8-10:
+v2.2.0.2
+Bug fixes:
+ - Fixed an issue where the Cache would fail to build when an invalid working directory was supplied.
+ - Fixed an issue where certain rare equipment models were unable to be exported. (Ex. Voeburtite Tunic of Healing, Midlander F)
+ - Fixed an issue where certain NPC-Only equipment sets were not visible in the Item Sets list.  (Ex. Alphinaud's equipment)
+ - Fixed an issue where extraneous .dat files could be generated if the user had an unusual game directory format.
+
 2020-8-9:
 Version: 2.2.0.1
 Bug fixes: 
