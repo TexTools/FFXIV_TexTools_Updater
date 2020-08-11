@@ -1,8 +1,12 @@
+2020-8-11:
+v2.2.0.4
+Bug Fixes:
+ - Fixed an error that caused some users to be unable to create backups from the initial backup prompt.
+
 2020-8-10:
 v2.2.0.3
 Misc:
  - Added FFXIV Version 5.3 support.
-
 
 2020-8-10:
 v2.2.0.2
