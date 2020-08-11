@@ -1,4 +1,10 @@
 2020-8-10:
+v2.2.0.3
+Misc:
+ - Added FFXIV Version 5.3 support.
+
+
+2020-8-10:
 v2.2.0.2
 Bug fixes:
  - Fixed an issue where the Cache would fail to build when an invalid working directory was supplied.
