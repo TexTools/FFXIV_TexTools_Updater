@@ -1,3 +1,16 @@
+2020-8-14:
+v2.2.0.5
+Bug fixes:
+ - TexTools no longer reports indexes having been backed up successfully when an error occurred during the backup
+ - Fixed an inconsistency between which indexes were backed up and which were restored
+ - Fixed an error in the normal calculation during racial transforms in the full model viewer
+ - Fixed racial scaling of items with valid parents but no deformation data
+
+New features:
+ - Added the option to download indexes for when the user's backups are corrupted (for the global client only)
+ - Added an auto re-scale option to attempt to correct for any scaling issues on import
+ - Added racial scaling on import to convert between races
+
 2020-8-11:
 v2.2.0.4
 Bug Fixes:
