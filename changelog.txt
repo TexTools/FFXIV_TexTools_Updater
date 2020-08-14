@@ -1,3 +1,12 @@
+2020-8-14
+v2.2.0.6
+Bug fixes:
+ - Fixed an issue causing users to not be able to correctly download index backups.
+ - Fixed an issue with an occasional application crash in the ModList menu when disabling file-addition mods.
+ - Fixed an issue where the Material Editor could create spurious materials for a non-existing Material Variant (Variant 0) under certain circumstances.
+ - Fixed an issue causing installation of file-addition/material-addition mods to fail when installed over existing, disabled file/material-addition mods.
+      - If you were affected by this, performing a [disable all mods] then [enable all mods] will resolve the issue.
+
 2020-8-14:
 v2.2.0.5
 Bug fixes:
