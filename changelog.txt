@@ -1,4 +1,14 @@
 2020-8-15
+v2.2.0.9
+Misc
+ - Hair shader items now has a reduced specular intensity in the model viewer (and exported model textures)
+ - The model viewer now has a disclaimer at the top that the display is only an approximation of in-game rendering.
+
+Bugfix
+ - Fixed an issue wherein the Enable/Disable mod button could be improperly enabled on Unmodded items under certain circumstances.
+ - Fixed an issue wherein files could be imported over the per-dat file size limit in particularly niche circumstances.
+	
+2020-8-15
 v2.2.0.8
 Bugfix:
  - Fixed an issue with file addition writing incorrect offsets to Index2 under certain circumstances.
