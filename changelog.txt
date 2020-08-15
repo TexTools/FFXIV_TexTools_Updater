@@ -1,3 +1,16 @@
+2020-8-15
+v2.2.0.7
+Improvements:
+ - Modpack Importing is a bit faster now.  Hooray!
+
+Bug Fixes:
+ - Fixed an issue where in the Standard Modpack creator could in some cases fail to include the correct DX11 texture files for Hair/Face items.
+ - Fixed an issue where in Standard Modpack creator would display no available files at the material/texture level for Hair/Tails.
+ - Fixed an issue wherein the DAT Size Limit error could pop up immediately after a Start Over due to no modified DATs existing.
+ - Fixed an issue wherein the application would crash when importing Monster/Companion models.
+ - Fixed an issue wherein Modpack Imports could sometimes throw cache access errors due to repeated file accesses on slower machines.
+ - Fixed an issue wherein the application would crash when trying to view a Modded Texture with no valid Index entry.
+
 2020-8-14
 v2.2.0.6
 Bug fixes:
