@@ -1,3 +1,32 @@
+2020-8-19
+v2.2.1.0
++ MAJOR:
+ > Limit Break! The Total Mod Size Limit has been increased to 24GB! (If you're on DX11 mode)
+ > Modpack Size Calculations have been updated - This means *new* Modpacks may be significantly smaller now (both TTMP size and Installed Size)
+ > [Check for Problems] will now automatically repair simple problems, or encourage the user to perform a [Start Over] if the problems are not repairable.
+
++ MINOR:
+ > TexTools will now automatically start up in DX9 or DX11 mode as appropriate based on your FFXIV Settings.
+ > The Import and Enable Mod functions will now refuse to import or enable test-ably invalid mod data.
+ > Model Import weight warnings now listed by group/part, rather than simply one notice total.
+ > Model Import now logs a warning if the Model references more than 4 materials (Including which materials will be scrubbed by FFXIV)
+ > Model Import now logs a warning for common valid-but-unusual accidental states. (Ex. Blacked out Vertex Alpha channels)
+ > Model Import now logs a warning on DAE imports notifying that they will be removed in 2.3.
+ > Model Import now logs an error if any Mesh Groups are invalid, rather than only Group 0.
+ > Model Import log window now remains open until you close it manually -if- there were any errors or warnings.
+ > Models with 5+ Bones per vertex now have their remaining weights properly re-normalized, rather than simply linearly adding/removing weights from the most major bone influence.
+ > The Material Editor now has preset-buttons for changing texture paths between shared and non-shared defaults.
+
++ BUGFIX:
+ > Modpack Wizard Group-Description window is now properly multi-line (and scrolls)
+ > PNG imports now generate proper mipmap trees even if the DDS they're overwriting only has one Mipmap (except for UI elements, those keep only 1 mipmap)
+ > Deleting a mod which exists in an invalid offset will now completely remove the mod slot from the system, rather than allowing it to remain for other, future mods to use.
+ > Fixed an issue wherein models with 5+ Bones per Vertex were having incorrect bones removed rather than the least-significant weight.
+
++ NOTES:
+ > Once you have exceeded the previous single-file size limit for mods (2GB), you will be unable to load the modded items into previous versions of TexTools.
+
+
 2020-8-15
 v2.2.0.9
 Misc
