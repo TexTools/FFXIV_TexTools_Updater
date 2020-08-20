@@ -1,3 +1,10 @@
+2020-8-20
+v2.2.1.1
++ NEW
+ > TexTools has a new easy installer for fresh installs.
++ BUGFIX:
+ > Fixed an issue wherein TexTools would read incorrect dat offsets in dats exceeding 4GB in size.
+
 2020-8-19
 v2.2.1.0
 + MAJOR:
