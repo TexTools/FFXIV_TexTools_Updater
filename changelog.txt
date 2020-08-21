@@ -1,3 +1,10 @@
+2020-8-21
+v2.2.1.2
++ BUGFIX:
+ > Corrected Elezen Male racial transformations in the FMV & Model Import
+ > Modpacks with file-addition mod files in them can now be correctly enabled/disabled at the modpack level.
+ > The Modpack Import dialog should now no longer show a windows [program is not responding] message for some users.
+
 2020-8-20
 v2.2.1.1
 + NEW
