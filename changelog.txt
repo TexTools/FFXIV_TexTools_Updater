@@ -1,4 +1,9 @@
 2020-8-22
+v2.2.1.4
++ BUGFIX
+ > Check for Problems no longer treats .atex files as broken texture files.
+   
+2020-8-22
 v2.2.1.3
 + MINOR
  > The Problem Checker now scans files much more thoroughly for problems.  (As a byproduct of this, it is slightly slower
