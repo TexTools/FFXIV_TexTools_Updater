@@ -1,4 +1,10 @@
 2020-8-22
+v2.2.1.5
++ BUGFIX:
+ > Fixed an issue where-in colorsets imported to unmodified DX9 Materials would cause the material and/or model to fail to render in game
+    > This primarily applied to importing colorsets onto unmodified Hair Accessory Materials.
+
+2020-8-22
 v2.2.1.4
 + BUGFIX
  > Check for Problems no longer treats .atex files as broken texture files.
