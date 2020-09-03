@@ -1,3 +1,11 @@
+2020-09-03
+v2.3.0.1
++ BUGFIXES
+    - Fixed issue with expansion race sub-race materials not being loaded correctly in the Textures menu.
+    - Fixed issue with Decal texture import/export crashing TexTools.
++ MINOR
+    - Monster Variants are now visible/editable from the Variants tab.
+
 2020-09-02
 v2.3.0.0
 
