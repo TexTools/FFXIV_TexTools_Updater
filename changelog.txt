@@ -1,4 +1,23 @@
 2020-09-03
+v2.3.0.2
++ BUGFIXES
+	- Fixed an issue wherein the item list and UI would become unresponsive in certain cases after importing a modpack.
+	- Fixed an issue wherein the materials for an item would not be visible in the Texture tab in the event the item referenced materials for a model which does not exist.
+	- Fixed an issue wherein racial model additions for feet items would not be applied correctly.
+	- Fixed an issue wherein the 'Glasses' preset for the Metadata Visibility Parameters was incorrect.
+	- Fixed an issue wherein creating new variants for Weapon/Monster/Demihuman items would fail.
+	- Fixed an issue wherein Xaela Tails were displaying incorrect materials.
+	- Fixed an issue wherein Character textures were saved to an improper directory.
+	- Fixed an issue wherein Mat-Add additional textures/materials were listed under default item names rather than human readable item names under certain conditions.
+	- Fixed an issue wherein the displayed item name for character item mods was incorrect.
+	- Fixed an issue wherein the Extra Skeleton settings were incorrectly disabled for Hair items.
+	- Fixed an issue wherein the Model Tab was not properly synchronizing selected item "number" with the other tabs for Character items.
+	
++ KNOWN ISSUES
+	- Expansion Race secondary clan textures (Xaela/Lost/Veena) cannot be included via the Advanced Modpack Menu currently.
+	- Shape Data is not properly racially deformed when adding new racial models.
+	
+2020-09-03
 v2.3.0.1
 + BUGFIXES
     - Fixed issue with expansion race sub-race materials not being loaded correctly in the Textures menu.
