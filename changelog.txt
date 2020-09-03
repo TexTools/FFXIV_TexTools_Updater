@@ -1,3 +1,45 @@
+2020-09-02
+v2.3.0.0
+
++ MAJOR:
+   - Introduction of Metatdata Mods/Tab.
+   - DAE Support Removed
+   - The old post-patch backup prompt has been removed and replaced with new, more robust post-patch functionality.
+
++ MODPACK CREATION
+   - Standard Modpacks can now be saved as Advanced/Wizard modpacks, and do so by default.  (Each item is added as a separate group)
+   - Advanced Modpacks can now include child/dependent files in a similar manner to the Standard Modpack Creator.
+   - The Advanced Modpack creator now uses the standard Item List selector, complete with search bar and sets tab.
+   
++ UI
+   - Variants tab has been updated to group things by IMC Variant primarily now that they are directly editable.
+   - Model loading now waits for the user to click on the Models tab before loading the 3D Model.
+   - Race/Number selections are now synchronized/shared across tabs.
+       - This option can be turned off in the Customize menu if desired.
+   - Switching Items will now attempt to re-select the same Race/Number you were on, if it exists in the new item.
+       - This option can be turned off in the Customize menu if desired.
+   - The Character "Items" in the items list have now been expanded out into race-specific selections.
+   - Races which have a model, but no Materials are now viewable in the Textures tab.
+     - The race which it shares materials from is displayed in a message at the top of the UI.
+     - You may now create new Materials for these races even if they did not have Materials to start with.
+   - There is now an Info button on the textures tab at the top which will show various item information, including how the item's models and materials are shared, and what other items are paired with it.
+
++ MISC
+   - Poreless Skin Presets have been added to the Material Editor
+   - A raw 'Copy File' button has been added to the main menu.
+     - This is primarily useful for transferring AVFX file between items.
+   - Check for Problems no longer lists missing default _a part materials as a warning.
+      
++ BUGFIXES
+   - Exporting textures as PNG or BMP while the game is running now works correctly.
+   - Various application crashes have been reduced to non-crashing error messages.  
+   - Fixed various issues relating to monster and demihuman selection, export, and skeleton resolution.
+   - Fixed issues with the Advanced/Wizard Modpack Creator crashing or being unable to display items under various situations.
+   - Fixed multiple niche errors throughout the application.
+
++ NOTE
+   - Modpacks created on this version CANNOT be imported into previous versions of TexTools.
+
 2020-8-22
 v2.2.1.5
 + BUGFIX:
