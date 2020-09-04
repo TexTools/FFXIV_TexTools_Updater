@@ -1,4 +1,19 @@
 2020-09-03
+v2.3.0.3
++ BUGFIXES
+	- Fixed an issue wherein the application would crash when exporting Face/Equipment Decals
+	- Fixed an issue wherein viewing an item with invalid default materials could result in an endless series of error messages.
+	- Fixed an issue wherein Xaela/Secondary clan textures were not exportable via Advanced Modpacks.
+	- Fixed an issue wherein some entries in the Human-Bodies set grouping were not selectable via the by Sets menu.
+	- Fixed an issue wherein the application could become unresponsive when switching off of certain NPC models.
+	
++ MINOR:
+	- An additional option has been added to the Customize menu for External Model Viewer Type
+		- When set to 3DS Max, it will automatically invert the Normal Map green channel for textures exported via the model viewer, to match 3DS normal map swizzle coordinates.
+	- The Model Viewer will now attempt to display any valid remaining mesh groups, even if some of the Meshes/Materials in the model are invalid.
+	- All slots for all existing equipment sets are now viewable, even if they do not have models or materials by default.
+
+2020-09-03
 v2.3.0.2
 + BUGFIXES
 	- Fixed an issue wherein the item list and UI would become unresponsive in certain cases after importing a modpack.
