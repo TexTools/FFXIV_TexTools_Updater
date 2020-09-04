@@ -1,3 +1,14 @@
+2020-09-04
+v2.3.0.4
++ BUGFIXES
+  - Resolved an issue wherein models exported with the FMV were exported with incorrect skeletal information.
+  - Resolved an issue wherein Viera Ear models were exported with incorrect skeletal information.
+  - Resolved an issue wherein the Skin Selection menu in the FMV was not appearing for Face items.
+  - Resolved an issue wherein the Poreless Face Material Preset was incorrect.
+  - Resolved an issue wherein Monster models would be rendered invisible in the Model Viewer.
+  - Resolved an issue wherein deleting materials via the Material Editor menu would not delete them for all variants.
+  - Resolved an issue wherein setting the external model viewer type to 3DS Max would cause the main Model Viewer to show inverted normals.
+
 2020-09-03
 v2.3.0.3
 + BUGFIXES
