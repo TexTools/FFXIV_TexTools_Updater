@@ -1,4 +1,14 @@
 2020-09-06
+v2.3.1.1
++ MINOR
+    - Added Identical Variants option to Item Converter
+    - Adjusted Item Converter modpack names.
+
++ BUGFIXES
+    - Fixed Item Converter not carrying over extra skeleton settings correctly.
+    - Fixed Poreless Face Preset not using correct Lip Color settings.
+
+2020-09-06
 v2.3.1.0
 + MAJOR
 	- The Mod Converter has been replaced with a new, more robust Item Converter
