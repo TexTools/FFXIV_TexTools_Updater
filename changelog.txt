@@ -1,4 +1,12 @@
 2020-09-06
++ MINOR
+	- Hrothgar alternative fur pattern Materials are now editable via the Materials dropdown.
++ BUGFIX
+	- Resolved an issue wherein Padjali NPC Models were not exportable
+	- Resolved an issue wherein the Item Converter would attempt to delete internal metadata files improperly, causing it to fail.
+	- Resolved an issue wherein the Item Converter would unnecessarily delete mods in other slots within the same set of the destination item.
+
+2020-09-06
 v2.3.1.1
 + MINOR
     - Added Identical Variants option to Item Converter
