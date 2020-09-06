@@ -1,3 +1,16 @@
+2020-09-06
+v2.3.1.0
++ MAJOR
+	- The Mod Converter has been replaced with a new, more robust Item Converter
+		- The Item Converter works on both default and modded equipment and hair, and copies all elements of the item, including variants, custom materials/models/metadata/vfx/etc.
+		- The Item Converter, Icon Search, FMV, Raw File Copy options have been moved together under a new Tools dropdown.
+
++ BUGFIXES
+	- Added more safety catches around possible crash errors to prevent application crashes.
+	- Start Over will now automatically shut down any other running copies of TexTools to prevent file access issues.
+	- Resolved an issue wherein models exported via the FMV did not have extra skeleton information properly set.
+	- Resolved an issue wherein Midlander Male could be listed multiple times in Race dropdowns.
+
 2020-09-04
 v2.3.0.4
 + BUGFIXES
