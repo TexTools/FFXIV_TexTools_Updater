@@ -1,4 +1,13 @@
 2020-09-06
++MINOR
+	- Missing texture errors in the problem checker have been downgraded to warnings, rather than errors.
+
++BUGFIX
+	- Resolved an issue wherein converting an item to the same item via the Item Converter would removing all mods on the item.
+	- Resolved an issue wherein the mod converter would refuse to convert Accessory items.
+	- Resolved an issue wherein the mod converter would fail to convert an item if it contained invalid file references.
+
+2020-09-06
 + MINOR
 	- Hrothgar alternative fur pattern Materials are now editable via the Materials dropdown.
 + BUGFIX
