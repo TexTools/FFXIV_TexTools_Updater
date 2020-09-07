@@ -1,4 +1,13 @@
 2020-09-07
+v2.3.1.6
++ MINOR
+    - A new option has been added to the Item Converter to save the affected items to a .ttmp2 Modpack.
+         - NOTE: The items will still be modified in the game files.  This just generates a .ttmp2 file in addition.
++ BUGFIXES
+    - Resolved an issue wherein the Item Converter would fail when converting to hair IDs 101-115 for certain races.
+    - Resolved an issue wherein the Easy Installer would not set the file association for .ttmp files properly.
+
+2020-09-07
 v2.3.1.5
 +MINOR
 	- Added a new option in the customize menu for "Export Complete Skeletons"
