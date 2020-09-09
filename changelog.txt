@@ -1,3 +1,16 @@
+2020-09-09
+v2.3.1.7
++ MINOR
+	- Added on-hover tooltip to the Cache Queue notification.
+	- Variant Decal ID settings can now be edited.
+	- Variant Material Animation ID settings can now be edited.
+	- Added additional checks to ensure invalid offsets cannot be applied to the game files.
+	- Default Item Sets file updated to include set information for FFXIV Patch 5.31 items.
++ BUGFIX
+	- Resolved an issue wherein the cache worker could get stuck on some items.
+	- Resolved an issue wherein importing mods in specific bad modlist/index states could cause a semaphore error.
+	- Resolved an issue wherein the tab selection would remain on the Metadata tab even when switching to an item which did not support it.
+
 2020-09-07
 v2.3.1.6
 + MINOR
