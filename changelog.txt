@@ -1,3 +1,10 @@
+2020-09-10
+v2.3.1.8
++ MINOR
+	- The Item Converter will now prompt the user to automatically convert additional items if needed when converting multi-slot gear. (Ex. The Antecedent's Attire)
++ BUGFIX
+	- Resolved an issue wherein individually disabling/enabling mod files would not properly update the cache.
+
 2020-09-09
 v2.3.1.7
 + MINOR
