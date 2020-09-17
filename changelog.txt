@@ -1,3 +1,19 @@
+2020-09-17
+v2.3.1.9
++ MINOR
+    - Addition of TexTools Version Selection in the Customize Menu
+        - This will allow you to choose either the current [Stable] version, or the [Latest] (Beta) version.
++ BUGFIXES
+    - Resolved an issue wherein the Onishi Tekko model was not viewable/editable.
+    - Resolved an issue wherein Xaela Tails were not visible in the Advanced Modpack Creator.
+    - Resolved an issue wherein copying an item variant with an invalid material assignment would copy the invalid material assignment to the resulting item.
+    - Resolved an issue wherein adding a Highlander F Racial model to equipment sets 64-128 would break Highlander F Racial models for sets 0-63.
+    - Resolved an issue wherein Deleting a Modpack would occasionally result in the Loading screen getting stuck open.
+    - Resolved an issue wherein Metadata mods could be updated incorrectly after FFXIV Patches.
+    - Resolved an issue wherein exporting a hair model via the FMV after changing the race of the hair could result in the application becoming unresponsive.
+	- Resolved an issue wherein Leg+Foot items would incorrectly select the Body gear of the same set when selected via the Categories tab.
+	- Resolved an issue wherein overwriting a file-addition mod could result in the mod being improperly labeled as a base game file.
+	
 2020-09-10
 v2.3.1.8
 + MINOR
