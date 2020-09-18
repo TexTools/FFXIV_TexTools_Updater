@@ -1,3 +1,8 @@
+2020-09-18
+v2.3.2.0b
++ PERFORMANCE
+    - Modpack imports are now 75-90% faster.
+
 2020-09-17
 v2.3.1.9
 + MINOR
