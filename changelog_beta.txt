@@ -1,4 +1,13 @@
 2020-09-18
+v2.3.2.1b
++ MINOR
+	- Ring items are now split into Left and Right rings for clarity in the Categories tab.
+	- Added Raw File Import/Export options under Tools => Raw File Operations
++ BUGFIX
+	- Resolved an issue wherein the Item Converter would fail when attempting to convert hair models.
+	- Resolved an issue wherein TexTools would not properly switch off of the Beta version branch.
+
+2020-09-18
 v2.3.2.0b
 + PERFORMANCE
     - Modpack imports are now 75-90% faster.
