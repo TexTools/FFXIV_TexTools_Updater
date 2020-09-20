@@ -1,3 +1,14 @@
+2020-09-20
+v2.3.2.2b
++ MINOR
+	- Added "Recover Unused Space" Option under Mods => Mod List
+	- Added "Clean Up Modlist" Option under Mods => Mod List
+	- Increased Maximum DAT size from 8GB to 32GB for NTFS and exFAT drives.
+	- Added prompts for to the Item Converter when converting paired items to also convert said paired item.
++ BUGFIX
+	- Resolved an issue wherein browsing items while FFXIV was open could cause TexTools to crash.
+	- Resolved an issue wherein Indoor Furniture items would not appear in the By Sets tab.
+
 2020-09-18
 v2.3.2.1b
 + MINOR
