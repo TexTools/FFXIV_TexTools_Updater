@@ -1,4 +1,11 @@
 2020-09-20
+v2.3.2.3b
++ PERFORMANCE
+	- Modpack Enable/Disable/Delete and Enable/Disable All Mods are now 75-90% faster.
++ MINOR
+	- The Post-Patch Procedure now automatically creates fresh Index Backups (Rather than prompting the user about them)
+
+2020-09-20
 v2.3.2.2b
 + MINOR
 	- Added "Recover Unused Space" Option under Mods => Mod List
