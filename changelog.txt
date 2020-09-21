@@ -1,3 +1,21 @@
+2020-09-21
+v2.3.2.5
++ PERFORMANCE
+    - Modpack imports, enables, and disables are now 75-90% faster.
++ MINOR
+	- Ring items are now split into Left and Right rings for clarity in the Categories tab.
+	- Added "Raw File Import/Export" Options under Tools => Raw File Operations
+	- Added "Recover Unused Space" Option under Mods => Mod List
+	- Added "Clean Up Modlist" Option under Mods => Mod List
+	- Increased Maximum DAT size from 8GB to 32GB for NTFS and exFAT drives.
+	- Added prompts to the Item Converter when converting paired items to also convert said paired item.
+	- The Post-Patch Procedure now automatically creates fresh Index Backups (Rather than prompting the user about them)
++ BUGFIX
+	- Resolved an issue wherein the Item Converter would fail when attempting to convert hair models.
+	- Resolved an issue wherein TexTools would not properly switch off of the Beta version branch.
+	- Resolved an issue wherein Indoor Furniture items would not appear in the By Sets tab.
+
+
 2020-09-17
 v2.3.1.9
 + MINOR

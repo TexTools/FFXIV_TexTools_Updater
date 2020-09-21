@@ -1,3 +1,8 @@
+2020-09-21
+v2.3.2.5
++ MINOR
+	- Promoted version 2.3.2.4b to stable branch.
+
 2020-09-20
 v2.3.2.4b
 + MINOR
