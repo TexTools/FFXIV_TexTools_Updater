@@ -1,4 +1,10 @@
 2020-09-20
+v2.3.2.4b
++ MINOR
+    - Improved space usage of DATs by allowing mods to stay in the same data slot if the file being written is the same or smaller size.
+    - Minor verbiage adjustments.
+
+2020-09-20
 v2.3.2.3b
 + PERFORMANCE
 	- Modpack Enable/Disable/Delete and Enable/Disable All Mods are now 75-90% faster.
