@@ -1,4 +1,13 @@
 2020-09-21
+v2.3.2.6
++ PERFORMANCE
+	- Item Converter is now faster.
++ BUGFIXES
+	- Resolved an issue wherein adding new files to the filesystem could result in writing incorrect values to the index files.
+	- Resolved an issue wherein the application would crash after performing a [Start Over]
+	- Resolved an issue wherein the application would crash when attempting to read invalid index entries.
+	
+2020-09-21
 v2.3.2.5
 + MINOR
 	- Promoted version 2.3.2.4b to stable branch.
