@@ -1,4 +1,10 @@
 2020-09-22
+v2.3.3.3b
++ BUGFIX
+	- Resolved an issue wherein loading advanced modpacks into the advanced modpack editor could crash the application in some cases.
+	- Resolved an issue wherein re-saving an advanced modpack with no version number would crash the application.
+
+2020-09-22
 v2.3.3.2b
 + MINOR
 	- Added "Copy Model File" option under the "Raw File Operations" menu.
