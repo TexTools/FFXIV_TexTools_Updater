@@ -1,4 +1,12 @@
 2020-09-22
+v2.3.3.2b
++ MINOR
+	- Added "Copy Model File" option under the "Raw File Operations" menu.
+		- This function will copy a model file along with all of its associated materials and textures, and racially convert the model file if appropriate.
++ BUGFIX
+	- Resolved an issue wherein the modpack structure of mods created via the Advanced Modpack dialog was incorrect.
+
+2020-09-22
 v2.3.3.1b
 + MAJOR
 	- Introduction of Destination Item Selection on Import
