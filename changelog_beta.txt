@@ -1,3 +1,10 @@
+2020-09-22
+v2.3.3.0b
++ PERFORMANCE
+	- Item Loading is now significantly faster.
++ TECHNICAL
+	- Under the hood work for item convert on import.
+
 2020-09-21
 v2.3.2.7
 + BUGFIX
