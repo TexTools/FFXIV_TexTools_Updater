@@ -1,4 +1,10 @@
 2020-09-22
+v2.3.3.1b
++ MAJOR
+	- Introduction of Destination Item Selection on Import
+		- In order to qualify, the Modpack must include the Metadata entry and ALL Models for the item in question.
+
+2020-09-22
 v2.3.3.0b
 + PERFORMANCE
 	- Item Loading is now significantly faster.
