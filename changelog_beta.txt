@@ -1,4 +1,9 @@
 2020-09-21
+v2.3.2.7
++ BUGFIX
+   - Resolved an issue where importing texture files via the textures tab would cause the application to become unresponsive.
+   
+2020-09-21
 v2.3.2.6
 + PERFORMANCE
 	- Item Converter is now faster.
