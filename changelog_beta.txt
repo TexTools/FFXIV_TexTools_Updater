@@ -1,4 +1,10 @@
 2020-09-22
+v2.3.3.4b
++ BUGFIXES
+    - Resolved an issue wherein item conversion would fail if some files didn't exist.
+    - Resolved an issue wherein metadata files which should not have been converted on import were being converted on import.
+
+2020-09-22
 v2.3.3.3b
 + BUGFIX
 	- Resolved an issue wherein loading advanced modpacks into the advanced modpack editor could crash the application in some cases.
