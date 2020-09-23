@@ -1,4 +1,9 @@
 2020-09-22
+v2.3.3.5b
++ BUGFIXES
+    - Fixed more errors when loading Advanced Modpacks back into the Advanced Modpack editor.
+
+2020-09-22
 v2.3.3.4b
 + BUGFIXES
     - Resolved an issue wherein item conversion would fail if some files didn't exist.
