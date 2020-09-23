@@ -1,3 +1,16 @@
+2020-09-23
+v2.3.3.6b
++ MAJOR
+	- Introduction of Racial Scaling Settings/Mods (.rgsp files)
+		- Racial Settings may be edited via the Tools => Edit Racial Settings menu, and packed into Basic Modpacks.
++ MINOR
+	- Various polish and cleanup to the item select on import dialog.
++ BUGFIX
+	- Resolved an issue where the FBX converter would crash if the model contained animation data for non-existent vertices.
++ NOTE
+	- Modpacks created on this version CANNOT be imported into previous versions of TexTools
+		- Attempting to do so will prompt an error message telling the user to update TexTools.
+
 2020-09-22
 v2.3.3.5b
 + BUGFIXES
