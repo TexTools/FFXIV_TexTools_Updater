@@ -1,3 +1,11 @@
+2020-09-24
+v2.3.3.9b
++ BUGFIXES
+     - Resolved an issue wherein racial scaling mods would not be properly disabled when disabling them via the modpacks menu.
+     - Resolved an issue wherein metadata mods could fail to install properly when installed in the same modpack with racial scaling mods.
+     - Resolved an issue wherein temporary files generated via index downloads or TexTools version updates were not properly deleted after use.
+     - Resolved a number of visual issues with the Dark Theme.
+
 2020-09-23
 v2.3.3.8b
 + BUGFIXES
