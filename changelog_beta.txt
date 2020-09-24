@@ -1,4 +1,10 @@
 2020-09-23
+v2.3.3.8b
++ BUGFIXES
+    - Resolved an issue wherein mods would fail to install via double-click TTMP install under certain conditions.
+    - Resolved an issue wherein the application could crash when attempting to load invalid materials under certain conditions.
+
+2020-09-23
 v2.3.3.7b
 + MINOR
     - Added a 'Restore Defaults' button to the Racial Settings window.
