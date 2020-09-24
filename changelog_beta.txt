@@ -1,4 +1,14 @@
 2020-09-23
+v2.3.3.7b
++ MINOR
+    - Added a 'Restore Defaults' button to the Racial Settings window.
+    - Racial settings mods now list the Gender they apply to in the Modlist as well as race.
++ BUGFIXES
+     - Resolved an issue wherein deleting a racial scaling mod without first disabling the mod would delete the mod entry without reverting the scaling changes first.
+     - Resolved an issue wherein VFX files would not be copied over to the new item when copying items under certain circumstances.
+     - Other minor bugfixes.
+
+2020-09-23
 v2.3.3.6b
 + MAJOR
 	- Introduction of Racial Scaling Settings/Mods (.rgsp files)
