@@ -1,3 +1,31 @@
+2020-09-25
+v2.3.3.10
++ MAJOR
+	- Introduction of Destination Item Selection on Import
+		- In order to qualify, the Modpack must include the Metadata entry and ALL Models for the item in question.
+	- Introduction of Racial Scaling Settings/Mods (.rgsp files)
+		- Racial Settings may be edited via the Tools => Edit Racial Settings menu, and packed into Basic Modpacks.
++ MINOR
+	- Added "BodyWithHair" preset to the Skin Shader in the Material Editor.
+	- Added "Copy Model File" option under the "Raw File Operations" menu.
+		- This function will copy a model file along with all of its associated materials and textures, and racially convert the model file if appropriate.
++ PERFORMANCE
+	- Item Loading is now significantly faster.
++ BUGFIXES
+     - Resolved an issue wherein deleting a racial scaling mod without first disabling the mod would delete the mod entry without reverting the scaling changes first.
+     - Resolved an issue wherein VFX files would not be copied over to the new item when copying items under certain circumstances.
+     - Resolved an issue wherein mods would fail to install via double-click TTMP install under certain conditions.
+     - Resolved an issue wherein the application could crash when attempting to load invalid materials under certain conditions.
+	 - Resolved an issue where the FBX converter would crash if the model contained animation data for non-existent vertices.
+     - Resolved multiple issues related to loading Advanced Modpacks back into the Advanced Modpack editor.
+     - Resolved an issue wherein item conversion would fail if some files didn't exist.
+	 - Resolved an issue wherein the modpack structure of mods created via the Advanced Modpack dialog was incorrect.
+     - Resolved an issue wherein temporary files generated via index downloads or TexTools version updates were not properly deleted after use.
+     - Other minor bugfixes.
++ NOTE
+	- Modpacks created on this version CANNOT be imported into previous versions of TexTools
+		- Attempting to do so will prompt an error message telling the user to update TexTools.
+
 2020-09-21
 v2.3.2.7
 + BUGFIX
