@@ -1,3 +1,10 @@
+2020-09-26
+v2.3.3.11
++ BUGFIXES
+    - Resolved an issue wherein modpacks could not be created larger than 4GB
+    - Resolved an issue wherein weapons could not be converted using the Item Converter
+    - Resolved an issue wherein the same image could not be included multiple times in an Advanced Modpack.
+
 2020-09-25
 v2.3.3.10
 + MAJOR
