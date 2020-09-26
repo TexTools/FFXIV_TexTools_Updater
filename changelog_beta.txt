@@ -1,4 +1,10 @@
 2020-09-26
+v2.3.4.0b
++ MAJOR
+    - Introduction of Colorset Editor
+
+
+2020-09-26
 v2.3.3.11
 + BUGFIXES
     - Resolved an issue wherein modpacks could not be created larger than 4GB
