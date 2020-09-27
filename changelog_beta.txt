@@ -1,8 +1,12 @@
+2020-09-27
+v2.3.4.1b
++ BUGFIXES
+    - Miscellaneous bugfixes and corrections to verbiage in the Colorset Editor.
+
 2020-09-26
 v2.3.4.0b
 + MAJOR
     - Introduction of Colorset Editor
-
 
 2020-09-26
 v2.3.3.11
