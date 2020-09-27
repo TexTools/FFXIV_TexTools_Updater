@@ -1,4 +1,13 @@
 2020-09-27
+v2.3.4.2b
++ MINOR
+    - Added a "Highlight Colorset Row" button to the Model Viewer which will visually highlight a given colorset row on the model.
+    - Added a "Copy Dye Values to Row" button in the Colorset Editor which will copy the currently previewed dye settings onto the currently selected colorset row.
++ BUGFIXES
+    - Resolved an issue wherein VFX textures could not be loaded into the texture view.
+    - Resolved multiple minor bugs with the Colorset Editor.
+	
+2020-09-27
 v2.3.4.1b
 + BUGFIXES
     - Miscellaneous bugfixes and corrections to verbiage in the Colorset Editor.
