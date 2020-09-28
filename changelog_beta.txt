@@ -1,6 +1,14 @@
 2020-09-27
 v2.3.4.2b
 + MINOR
+	- Dye Preview selection has been moved above the model display in the colorset editor for clarity.
+	- Dye Preview now lists Dyes by their in game name.
++ BUGFIXES
+	- Resolved multiple issues regarding Dye Previewing in the colorset editor.
+	
+2020-09-27
+v2.3.4.2b
++ MINOR
     - Added a "Highlight Colorset Row" button to the Model Viewer which will visually highlight a given colorset row on the model.
     - Added a "Copy Dye Values to Row" button in the Colorset Editor which will copy the currently previewed dye settings onto the currently selected colorset row.
 + BUGFIXES
