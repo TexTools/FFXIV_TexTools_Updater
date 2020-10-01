@@ -1,3 +1,13 @@
+2020-09-30
+v2.3.4.4.b
++ MAJOR
+    - Added Shape Data Export for FBX files via Morphers/Blend Shapes.
+        - This data cannot yet be imported back in to TexTools
+    - Added Deformation Shapes toggle to the 3D Model Viewer
++ BUGFIXES
+    - Resolved an issue wherein the cache was not properly updated after using the Item Converter or Copy Model functions.
+    - Resolved visual errors when moving rows in the Colorset Editor.
+
 2020-09-27
 v2.3.4.2b
 + MINOR
