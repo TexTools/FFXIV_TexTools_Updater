@@ -1,6 +1,15 @@
 2020-10-01
 v2.3.4.5b
 + MAJOR
+     - Shape Data can now be imported via blend shapes/morphers.
+		- The blend shape/morpher channel must match the exact name of the desired shape in FFXIV (ex. shp_brw_a)
++ MINOR
+	- Blender-Exported FBX files can now be processed even when containing more than 64 bones.
+	- Non-FFXIV Shape Data blend shapes/morphers will now be properly collapsed and applied when importing FBX files.
+
+2020-10-01
+v2.3.4.5b
++ MAJOR
      - Shape Data vertices will have their UV/Weight/Normal data updated to match the base model when using the [Use Original Shape Data] toggle. 
 + BUGFIXES
     - Resolved an issue wherein textures exported with models were not being assigned properly in FBX files.
