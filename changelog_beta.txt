@@ -1,5 +1,14 @@
+2020-10-01
+v2.3.4.5b
++ MAJOR
+     - Shape Data vertices will have their UV/Weight/Normal data updated to match the base model when using the [Use Original Shape Data] toggle. 
++ BUGFIXES
+    - Resolved an issue wherein textures exported with models were not being assigned properly in FBX files.
+    - Resolved an issue wherein the shape keys were duplicated in blender for exported FBX files.
+    - Resolved an issue wherein the order of the Blue and Green data values in the Raw Data Edit menu of the Colorset Editor were swapped.
+
 2020-09-30
-v2.3.4.4.b
+v2.3.4.4b
 + MAJOR
     - Added Shape Data Export for FBX files via Morphers/Blend Shapes.
         - This data cannot yet be imported back in to TexTools
