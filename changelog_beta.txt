@@ -1,3 +1,10 @@
+2020-10-02
+v2.3.4.7b
++ BUGFIXES
+    - Shape Data display in the model editor has been restored.
+    - Resolved multiple minor issues with shape data import.
+    - Resolved an issue wherein the [Use Original Shape Data] function was matching vertices improperly.
+
 2020-10-01
 v2.3.4.5b
 + MAJOR
