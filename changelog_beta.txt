@@ -1,3 +1,10 @@
+2020-10-04
+v2.3.4.8b
++ MINOR
+    - The FMV now exports Shape Data with full model exports.
++ BUGFIXES
+    - Resolved an issue wherein adding shape data to a new mesh group could cause the model to break.
+
 2020-10-02
 v2.3.4.7b
 + BUGFIXES
