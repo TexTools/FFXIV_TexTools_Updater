@@ -1,3 +1,25 @@
+2020-10-04
+v2.3.4.9
++ MAJOR
+    - A new Colorset Editor has been added when viewing Colorsets.
+        - Colorsets may still be exported/imported as DDS+DAT files.
+    - Shape Data is now exported/imported along with models in the form of Morphers/Blend Shapes.
+        - The Morph Channel/Blend Shape must have the same name as the desired shape target in FFXIV.
++ MINOR
+    - Non-Shape Data related Morphers/Blend Shapes will now be properly collapsed and applied during FBX Import.
+    - FBX imports now work even if the skin modifiers contain more than 64 bones (Primarily affected Blender)
+    - The [Enable Shape Data] toggle in the Model Import dialog has been changed to [Use Original Shape Data]
+        - When turned on, the original deformation shapes will be used, however, their UV coordinates and other non-position data will now be updated to match the base model.
+    - A new "Highlight Colorset Row" button has been added to the model viewer.
+    - A new "Apply Deformation Shapes" button has been added to the model viewer.
++ BUGFIXES
+    - Resolved an issue wherein using the Item Converter or Model Copy functions would not properly update the cache.
+	- Resolved an issue wherein the item converter would fail to copy head equipment under certain circumstances.
+	- Resolved an issue wherein copying items to non-existent sets could create side-effects on unrelated item sets.
++ NOTE
+	- 3D Model Mods from before around TexTools ~v2.3 cannot have their Shape Data displayed or Exported due to errors in the data.
+	- 3DS Max Users may wish to turn off Morphers in 3DS Max during FBX Imports due to a 3DS Max Error in which it will break the explicit normals on the meshes in question.
+	
 2020-09-26
 v2.3.3.11
 + BUGFIXES

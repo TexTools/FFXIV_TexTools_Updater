@@ -1,4 +1,9 @@
 2020-10-04
+v2.3.4.9
++ MINOR
+    - Promoted build to Stable.
+
+2020-10-04
 v2.3.4.8b
 + MINOR
     - The FMV now exports Shape Data with full model exports.
