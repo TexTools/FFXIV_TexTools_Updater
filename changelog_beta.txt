@@ -1,3 +1,10 @@
+2020-10-16
+v2.3.4.10
++ BUGFIXES
+    - Resolved an issue wherein colorsets could not properly be saved with color values above 1.0
+    - Resolved an issue wherein the colorset editor would display color values above 1.0 improperly.
+    - Resolved an issue wherein TexTools could write to deleted mod slots in improper data files.  (Primarily affected writing to non-standard DATs, ex. The sound DATs)
+
 2020-10-04
 v2.3.4.9
 + MINOR
