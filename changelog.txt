@@ -1,3 +1,11 @@
+2020-10-19
+v2.3.4.11
++ MINOR
+    - Updated base Item Sets file to include FFXIV v5.35 items.
++ BUGFIXES
+    - Resolved an issue wherein model morph targets would have improper bone weights when copied via the Item Converter or Model Copy Function
+    - Resolved an issue wherein Roegadyn F improperly listed Midlander F as their base skin race rather than Highlander F.
+
 2020-10-16
 v2.3.4.10
 + BUGFIXES
