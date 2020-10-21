@@ -1,3 +1,11 @@
+2020-10-21
+v2.3.4.12
++ MINOR
+    - The [Include Everything] Options in the Standard and Advanced modpack creators now additionally include all referenced AVFX/ATEX files.
++ BUGFIXES
+    - Resolved an issue wherein changing target item on import would fail under certain conditions.
+    - Resolved an issue wherein Morph targets were not being properly scaled along with the model they modified.
+
 2020-10-19
 v2.3.4.11
 + MINOR
