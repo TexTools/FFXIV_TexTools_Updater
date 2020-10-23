@@ -1,3 +1,11 @@
+2020-10-23
+v2.3.4.13
++ MINOR
+    - Added an error on import if the total number of vertices in a mesh group exceeds the maximum allowable limit due to the addition of shape data vertices.
++ BUGFIXES
+    - Resolved an issue wherein hair items were not being properly converted when using the item converter.
+    - Resolved an issue wherein morph targets were not having model modifiers properly applied (Ex. Copy UV1 to UV2)
+
 2020-10-21
 v2.3.4.12
 + MINOR
