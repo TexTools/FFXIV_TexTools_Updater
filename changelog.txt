@@ -1,3 +1,12 @@
+2020-11-02
+v2.3.4.14
++ BUGFIXES
+  - Resolved an issue wherein the application would crash when attempting to export a colorset file as PNG or BMP
+    - Colorset files will now always export as DDS.
+  - Resolved an issue wherein non-shape morph channels/blend shapes were not being properly applied on imported meshes.
+  - Resolved an issue wherein restoring index backups with improper DAT counts would not have their DAT counts corrected after restoration.
+  - Resolved an issue wherein importing multiple metadata files affecting the same set could result in the import variant data being set improperly.
+
 2020-10-23
 v2.3.4.13
 + MINOR
