@@ -1,3 +1,10 @@
+2020-12-03
+v2.3.4.15
++ BUGFIXES
+  - Chinese offsets updated for FFXIV Version 5.3
+  - The Mod Import Time display no longer counts time spent in the item select screen.
+  - When converting items on import, extraneous/unused files will no longer be added to the original item.
+
 2020-11-02
 v2.3.4.14
 + BUGFIXES
