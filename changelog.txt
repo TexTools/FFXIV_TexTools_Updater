@@ -1,3 +1,8 @@
+2020-12-08
+v2.3.4.16
++ BUGFIXES
+  - Offsets for global version updated for FFXIV Version 5.4
+
 2020-12-03
 v2.3.4.15
 + BUGFIXES
