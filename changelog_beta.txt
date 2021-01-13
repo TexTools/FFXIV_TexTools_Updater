@@ -1,3 +1,10 @@
+2021-01-13
++ MINOR
+  - Item Sets file updated for 5.41
++ BUGFIXES
+  - Offsets updated for KR 5.3 patch.
+  - Resolved an issue wherein furniture metadata mods could cause metadata on unrelated items to break.
+
 2021-01-07
 + MINOR
   - Verbiage Updates.
