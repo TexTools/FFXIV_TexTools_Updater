@@ -1,3 +1,11 @@
+2021-02-22
++ MINOR
+  - Improved Tangent calculations when importing 3D Models to fix spontaneous visible seam generation along UV2 and/or Vertex Color seams.
+  - Update Textools Website Links
+  - Updated Item Sets File
++ BUGFIXES
+   - Fixed a TexTools crash issue with some furniture items (Thanks Kaya!)
+
 2021-01-13
 + MINOR
   - Item Sets file updated for 5.41
