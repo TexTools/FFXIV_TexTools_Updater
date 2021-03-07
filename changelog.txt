@@ -1,3 +1,10 @@
+2021-03-07
++ BUGFIXES
+  - Resolved an issue wherein in the modlist menu would crash the application under certain conditions.
+  - Resolved an issue wherein the Snowman Suit and other Body-Leg-Foot items displayed the incorrect item when selected.
+  - Resolved an issue wherein the Item Select on Import dialog was not properly respecting the 'Make All Variants Identical' checkbox.
+  - The 'Add to FMV' button is now properly disabled for item types that are not supported (Ex. Weapons, furniture, monsters)
+
 2021-02-22
 + MINOR
   - Improved Tangent calculations when importing 3D Models to fix spontaneous visible seam generation along UV2 and/or Vertex Color seams.
