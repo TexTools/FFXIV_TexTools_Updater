@@ -1,3 +1,8 @@
+2021-03-13
++ MINOR
+  - Introduced Penumbra/Lumina integration features
+  - Guide/FAQ doc for this feature available here: https://docs.google.com/document/d/1VPfpMts8HBCxpaI7aV-n7EwhQQS2ODODHAzD8Ww8rVw/edit?usp=sharing
+
 2021-03-07
 + BUGFIXES
   - Resolved an issue wherein in the modlist menu would crash the application under certain conditions.
