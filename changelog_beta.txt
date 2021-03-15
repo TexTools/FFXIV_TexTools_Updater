@@ -1,3 +1,8 @@
+2021-03-14
++ MINOR
+  - When Lumina mode is enabled saving a colorset will no longer cause the UI to refresh.
+  - When Lumina mode is enabled saving a colorset/material will no longer bash the associated textures.
+
 2021-03-13
 + MINOR
   - Introduced Penumbra/Lumina integration features
