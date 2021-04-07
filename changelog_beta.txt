@@ -1,3 +1,7 @@
+2021-04-08
++ MINOR
+  - Updated offsets for Chinese version.
+
 2021-03-14
 + MINOR
   - When Lumina mode is enabled saving a colorset will no longer cause the UI to refresh.
