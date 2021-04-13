@@ -1,3 +1,8 @@
+2021-04-13
++ MINOR  
+  - Offsets updated for FFXIV Patch 5.5 Global Version
+  - Added more checks for invalid Lumina states.
+
 2021-04-08
 + MINOR
   - Updated offsets for Chinese version.
