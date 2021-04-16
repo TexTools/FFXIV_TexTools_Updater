@@ -1,3 +1,9 @@
+2021-04-16
++ MINOR
+  - Lumina/Penumbra Integration features have been added to TexTools. ( See: https://docs.google.com/document/d/1VPfpMts8HBCxpaI7aV-n7EwhQQS2ODODHAzD8Ww8rVw/edit )
++ BUGFIXES
+  - Mounts, Minions, and Weapons are now viewable/editable again via their standard category selection.
+  
 2021-04-13
 + MINOR
   - Offsets updated for FFXIV Patch 5.5 Global Version
