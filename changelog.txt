@@ -1,3 +1,7 @@
+2021-04-18
++ MINOR
+  - Added the ability to switch to the high resolution version of textures under the UI category by checking the checkbox in the top right of the viewport. (Thanks goat!)
+
 2021-04-16
 + MINOR
   - Lumina/Penumbra Integration features have been added to TexTools. ( See: https://docs.google.com/document/d/1VPfpMts8HBCxpaI7aV-n7EwhQQS2ODODHAzD8Ww8rVw/edit )
