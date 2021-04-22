@@ -1,3 +1,13 @@
+2021-04-22
++ MINOR
+  - The Check for Problems tool will now check for and correct texture files having an incorrect reported filesize.
+
++ BUGFIXES
+  - Resolved in issue wherein the application would crash when selecting UI elements in the Advanced Modpack Creator
+  - Resolved an issue wherein the application would crash when importing or exporting paintings.
+  - Resolved an issue wherein the application would save texture mods with an incorrect reported file size (Thanks Perchbird!)
+  - Resolved an issue wherein TTMP files were importable while in Lumina mode.
+
 2021-04-18
 + MINOR
   - Added the ability to switch to the high resolution version of textures under the UI category by checking the checkbox in the top right of the viewport. (Thanks goat!)
