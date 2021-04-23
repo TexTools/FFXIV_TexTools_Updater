@@ -7,6 +7,8 @@
   - Resolved an issue wherein the application would crash when importing or exporting paintings.
   - Resolved an issue wherein the application would save texture mods with an incorrect reported file size (Thanks Perchbird!)
   - Resolved an issue wherein TTMP files were importable while in Lumina mode.
+  - Resolved an issue whereing importing Racial Scaling mods via TTMP files was not applying the mods correctly.
+  - Resolved an issue wherein TTMP1 files would fail to import with a JSON error.
 
 2021-04-18
 + MINOR
