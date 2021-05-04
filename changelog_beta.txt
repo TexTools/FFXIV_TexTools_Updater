@@ -1,3 +1,11 @@
+2021-05-04
++ MINOR
+  - A previously unknown bit in the Leg metadata has now been correctly marked as 'LegShowTail' (Thanks Nyaughty)
+
++ BUGFIXES
+  - Fixed Lumina mode causing issues with post-patch cleanup process.
+  - Fixed Paintings not being importable.
+
 2021-04-22
 + MINOR
   - The Check for Problems tool will now check for and correct texture files having an incorrect reported filesize.
