@@ -1,3 +1,11 @@
+2021-05-18
++ MINOR
+  - KR Offsets updated to patch 5.4 Offsets
+     - Note - KR Users will need to rebuild their TexTools cache to see correct item names via Help -> Cache operations -> Rebuild Cache
++ BUGFIXES
+  - Resolved an issue wherein the Company Chocobo and other Demihuman mounts would not show up correctly when selected from the categories listing.
+  - Resolved an issue wherein the Loading Screen textures could not be opened in TexTools.
+
 2021-05-04
 + MINOR
   - A previously unknown bit in the Leg metadata has now been correctly marked as 'LegShowTail' (Thanks Nyaughty)
