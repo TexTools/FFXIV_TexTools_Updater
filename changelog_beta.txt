@@ -1,3 +1,7 @@
+2021-07-11
++ MAJOR
+  - Added Backup  Modpacks as a modpack type and associated Backup Modpack creator.  (Thanks Kora!)
+
 2021-05-18
 + MINOR
   - KR Offsets updated to patch 5.4 Offsets
