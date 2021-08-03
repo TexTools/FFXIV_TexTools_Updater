@@ -1,3 +1,13 @@
+2021-08-03
+ + MINOR
+  - The filename of the backup modpacks can now be changed during creation.
+  - You can now opt out of the default model import settings such as Force UV1 to [-1, 1] for gear or User Original Shape Data for faces. TexTools will remember when you check or uncheck the previously always checked boxes.
+  
+ + BUGFIXES
+  - Fixed a bug where parts of a model were invisible in the model preview under certain conditions.
+  - Fixed an error when attempting to import a model containing non sequential mesh numbers.
+  - Fixed a bug where an incorrect LoD count was written to the MDL file during model import.
+
 2021-07-11
 + MAJOR
   - Added Backup  Modpacks as a modpack type and associated Backup Modpack creator.  (Thanks Kora!)
