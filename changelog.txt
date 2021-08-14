@@ -1,3 +1,7 @@
+20201-08-14
++ MINOR
+  - Updated offsets for Chinese FFXIV version 5.5.
+
 2021-08-03
 + MAJOR
   - A new type of modpack, the backup modpack, has been added. 
