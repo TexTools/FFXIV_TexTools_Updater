@@ -1,3 +1,16 @@
+2021-12-03
++ MAJOR
+  - Provisional update for Endwalker
+  - Viera Male models/textures/etc now viewable/editable.
+  
++ KNOWN ISSUES 
+  - The Companion section is broken.
+  - Metadata settings needs updating for Viera Male
+  - FMV and racial scaling needs updating for Viera Male.
+
++ NOTE
+  - This is a temporary initial pre-patch for Endwalker.  More updates will come over this week to bring functionality back to normal.  Mods may or may not currently break the game as we cannot test them yet.
+
 2021-08-03
  + MINOR
   - The filename of the backup modpacks can now be changed during creation.
