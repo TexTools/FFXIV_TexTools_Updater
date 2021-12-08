@@ -1,3 +1,11 @@
+2021-12-08
++ MINOR
+  - Added FMV and metadata support for Male Viera
+  - Added (de)select all buttons to the wizard modpack importer (Thanks Jason!)
+  - Updated offsets for Korean FFXIV version 5.5
++ BUGFIXES
+  - Fixed the Companion category
+
 2021-12-03
 + MAJOR
   - Provisional update for Endwalker
