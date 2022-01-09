@@ -1,3 +1,12 @@
+2022-01-09
++ MINOR
+  - Moved the Disccord and GitHub buttons from the top left to the top right to prevent misclicks
+  - Added the ability to set a default modpack URL for standard and wizard modpacks
+  - TexTools now remembers the path to the last imported file during model import if the default exported model file doesn't exist
+  - Added number labels to the colourset editor
++ BUGFIXES
+  - Fixed a crash when cancelling modpack creation in the wizard modpack creator
+
 2021-12-08
 + MINOR
   - Added FMV and metadata support for Male Viera
