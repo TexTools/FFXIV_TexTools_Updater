@@ -1,3 +1,12 @@
+2022-01-24
++ MAJOR
+    - Introduced Body Material Auto-Assignment option in the Customize Menu.
+    - Introduced Body Material Auto-Assignment tool under Tools Menu.
+  
++ MINOR
+    - Added additional custom scaling options when importing models. (Thanks Alena!) 
+    - Fixed a bug with non-Global versions that would allow users to attempt to download invalid index backups for their region. (Thanks kj415j45!)
+
 2022-01-09
 + MINOR
   - Moved the Disccord and GitHub buttons from the top left to the top right to prevent misclicks
