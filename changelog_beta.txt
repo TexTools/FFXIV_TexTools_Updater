@@ -1,4 +1,4 @@
-2022-01-24
+2022-02-07
 + MAJOR
     - Introduced Body Material Auto-Assignment option in the Customize Menu.
     - Introduced Body Material Auto-Assignment tool under Tools Menu.
@@ -6,6 +6,8 @@
 + MINOR
     - Added additional custom scaling options when importing models. (Thanks Alena!) 
     - Fixed a bug with non-Global versions that would allow users to attempt to download invalid index backups for their region. (Thanks kj415j45!)
++ BUGFIX
+	- Resolved an error where item select on import could fail to combine metadata files together correctly when importing multiple items of the same set simultaneously.
 
 2022-01-09
 + MINOR
