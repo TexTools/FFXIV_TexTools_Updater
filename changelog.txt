@@ -1,3 +1,8 @@
+2022-02-15
++ MINOR
+    - Updated auto-material assignment to assign Bibo+ mods onto _bibo materials (if they exist).
+    - Back-end work in preparation for Overlay Modpacks
+
 2022-02-07
 + MAJOR
     - Introduced Body Material Auto-Assignment option in the Customize Menu.
