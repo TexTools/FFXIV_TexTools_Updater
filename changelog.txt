@@ -1,3 +1,7 @@
+2022-02-17
++ BUGFIX
+    - Reverted model scaling changes from 2.3.7.5 - Changes were not fully vetted and contained significant bugs.
+
 2022-02-16
 + BUGFIX
     - Auto-Skin selector now properly retains modpack link between modified models and the modpacks that imported them (for enable/disable purposes) ( Thanks Tani! )
