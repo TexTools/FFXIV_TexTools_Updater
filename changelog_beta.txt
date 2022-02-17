@@ -1,3 +1,8 @@
+2022-02-16
++ BUGFIX
+    - Auto-Skin selector now properly retains modpack link between modified models and the modpacks that imported them (for enable/disable purposes) ( Thanks Tani! )
+    - Custom model import size dialog now correctly included in release build.
+
 2022-02-15
 + MINOR
     - Updated auto-material assignment to assign Bibo+ mods onto _bibo materials (if they exist).
