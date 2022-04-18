@@ -1,3 +1,10 @@
+2022-04-18
++ MINOR
+	- Offsets updated for FFXIV Version 6.1 (Fixes issues with Housing items & mounts)
+	- Lumina functionality renamed to Penumbra at goat's request.
++ BUGFIX
+	- Fixed an issue where exported FBX files would not correctly have their textures assigned in the output file.
+
 2022-02-17
 + BUGFIX
     - Reverted model scaling changes from 2.3.7.5 - Changes were not fully vetted and contained significant bugs.
