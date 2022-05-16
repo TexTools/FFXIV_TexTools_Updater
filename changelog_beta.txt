@@ -1,3 +1,8 @@
+2022-05-15
++  MINOR
+   + Updated Offsets for KR and CN Versions.
+   + Updated CN Discord Link.
+
 2022-04-18
 + MINOR
 	- Offsets updated for FFXIV Version 6.1 (Fixes issues with Housing items & mounts)
