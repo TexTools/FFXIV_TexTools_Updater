@@ -1,3 +1,12 @@
+2022-07-31
++  MINOR
+   + Updated and expanded Chinese translations (Thanks Esrin!)
+   + Added Korean translations (Thanks ModernTiger!)
+   + Added buttons to rename and reorder mod group options in the wizard modpack creator
++ BUGFIX
+   - Fixed a mislabelled slot abbreviation (Thanks Kaya!)
+   - Fixed status names under UI -> Status for the international client
+
 2022-05-15
 +  MINOR
    + Updated Offsets for KR and CN Versions.
