@@ -1,3 +1,10 @@
+2022-08-24
++  MINOR
+   + Updated the item sets to include the items and NPCs added in patch 6.2
+   + Added the ability to load basic modpacks in the wizard modpack creator when creating options
++ BUGFIX
+   - Fixed an issue where dialog windows would get stuck behind other windows in the wizard modpack creator
+
 2022-07-31
 +  MINOR
    + Updated and expanded Chinese translations (Thanks Esrin!)
