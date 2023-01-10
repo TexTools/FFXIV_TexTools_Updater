@@ -1,12 +1,15 @@
 2023-01-10
 +  MINOR
+   + Incremented Cache version
+
+2023-01-10
++  MINOR
    + Updated the item sets to include the items and NPCs added in patch 6.3
    + Updated Assembly packages and .Net Framework to 4.8
 + BUGFIX
    + Outdoor Furnishings now list correctly
    + Fatcat Loungewear now listed correctly
    + Maplist datalength updated (Fixes Cache error)
-
 
 2022-08-24
 +  MINOR

@@ -1,5 +1,9 @@
 2023-01-10
 +  MINOR
+   + Incremented Cache version
+
+2023-01-10
++  MINOR
    + Updated the item sets to include the items and NPCs added in patch 6.3
    + Updated Assembly packages and .Net Framework to 4.8
 + BUGFIX
