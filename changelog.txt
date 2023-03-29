@@ -1,3 +1,9 @@
+2023-03-29
++  Security
+   + Temporarily disabled access to 0b0000 due to CVE affecting FFXIV's LUA engine allowing code execution, the details will be posted soon.
++  MINOR
+   + Updated the item sets to include the items and NPCs added in patch 6.35
+
 2023-01-10
 +  MINOR
    + Incremented Cache version
