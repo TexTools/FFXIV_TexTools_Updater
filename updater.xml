@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
-    <version>2.3.8.5</version>
+    <version>2.3.8.6</version>
     <url>https://github.com/TexTools/FFXIV_TexTools_UI/releases/download/v2.3.8.5/FFXIV_TexTools_v2.3.8.5.zip</url>
     <changelog>https://raw.githubusercontent.com/TexTools/FFXIV_TexTools_Updater/master/changelog.txt</changelog>
     <mandatory>true</mandatory>
