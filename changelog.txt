@@ -1,10 +1,11 @@
 2024-06-27
 TexTools 3.0 / Dawntrail Release Mega-Update!
-PLEASE READ THE FULL NOTES BEFORE UPDATING
-Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
+PLEASE READ THESE NOTES IN FULL BEFORE UPDATING
 
 DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 如果你所在的地区没有《黎明轨迹》扩展包，请不要安装此更新
 해당 지역에 DAWNTRAIL 확장팩이 없는 경우 이 업데이트를 설치하지 마십시오.
 
 BEFORE INSTALLING THIS UPDATE, PLEASE ENSURE YOU HAVE USED [START OVER] IN TEXTOOLS AND HAVE NO MODS INSTALLED.
+
+Full Patch Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
