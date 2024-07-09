@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
-    <version>3.0.4.3</version>
-    <url>https://github.com/TexTools/FFXIV_TexTools_UI/releases/download/v3.0.4.3/FFXIV_TexTools_v3.0.4.3.zip</url>
+    <version>3.0.4.4</version>
+    <url>https://github.com/TexTools/FFXIV_TexTools_UI/releases/download/v3.0.4.4/FFXIV_TexTools_v3.0.4.4.zip</url>
     <changelog>https://raw.githubusercontent.com/TexTools/FFXIV_TexTools_Updater/master/changelog.txt</changelog>
     <mandatory>false</mandatory>
 </item>
