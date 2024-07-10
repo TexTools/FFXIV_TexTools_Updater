@@ -1,5 +1,4 @@
-2024-06-27
-TexTools 3.0 / Dawntrail Release Mega-Update!
+TexTools 3.0.X.X
 PLEASE READ THESE NOTES IN FULL BEFORE UPDATING
 
 DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
@@ -8,4 +7,16 @@ DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 
 IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER] IN TEXTOOLS AND HAVE NO MODS INSTALLED BEFORE UPDATING.
 
-Full Patch Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
+Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
+
+v3.0.4.8
++ Dawntrail Upgrades:
+  - Fixed a niche issue with CharacterGlass textures that had exactly full-white gloss masks.
+
++ Modpacking:
+   - Empties are now not cleared on modpack creation, but instead on Modpack Import. (Mirrors Penumbra Behavior better, and safer)
+   - Fixed an issue where pages/groups/options could be lost in the Advanced Modpack Creator if they were initially exported as Empty, then had data added after initially exporting them.
+
++ Bugfixes:
+   - Fixed an issue where a corrupt item sets file could cause multiple failures across the application.
+   - Fixed a Crash in the Penumbra Library Converter if a folder was deleted from the source library after starting.
