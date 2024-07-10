@@ -9,6 +9,19 @@ IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER
 
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
+
+v3.0.4.9
++ Dawntrail Upgrades
+  - Fixed issues with DX9 Materials failing to convert in some cases.
+    - This primarily affected old hair mods, particularly those with accessories.
+  - Added Gear Mask Upgrade Menu
+    - This tool is for converting standalone old Endwalker gear mask files to Dawntrail
+  - Texture upgrade tools can now properly load .TEX files.
+  - Texture upgrade tools can now properly save .PNG files.
+  
++ OTHER
+  - Minions/Mounts now have their hotbar icons accessible/editable.
+
 v3.0.4.8
 + Dawntrail Upgrades:
   - Fixed a niche issue with CharacterGlass textures that had exactly full-white gloss masks.
