@@ -10,6 +10,17 @@ IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.5.0
++ BUGFIXES
+   - Fixed issues with Windows Long Path support.  Long Path support should now work when upgrading penumbra Libraries with really really long file names.
+   - Fixed a niche issue where modpack upgrades could fail when the modpack contained NULL groups/options.
+   - Fixed an issue where the UI was unnecessarily reloading the current item on save.
+   - Fixed issues where BG/Prop Models would not have their materials/textures loaded.
+   
++ NEW
+   - Added "View Model as Item" option under the View menu.  This will let you load arbitrary models (Ex. BG/Prop/Zone models) as a complete 'item', including their associated materials and textures.
+
+
 v3.0.4.9
 + Dawntrail Upgrades
   - Fixed issues with DX9 Materials failing to convert in some cases.
@@ -21,6 +32,7 @@ v3.0.4.9
   
 + OTHER
   - Minions/Mounts now have their hotbar icons accessible/editable.
+
 
 v3.0.4.8
 + Dawntrail Upgrades:
