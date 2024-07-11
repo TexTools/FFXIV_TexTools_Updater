@@ -10,6 +10,21 @@ IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.5.4
++ MATERIAL CREATION
+  - The Unique Textures button has returned, now with proper automatic-unique texture paths for all material types.
+  - The Shared Textures button has been removed as it was confusing and did not work properly/the way users expected in most cases.
+  - When Loading Material Presets, "Texture Paths" and "Texture Settings" are now separated.  Paths are off by default.
+  - The pre-loaded material presets have had their colorsets blanked out to appropriate defaults for their shader type.
+
++ MISC
+  - Added extra handling to try to prevent TT getting locked from failing to delete Readonly files in its temp directory.
+  - Extremely old UI textures which have MipMaps when they shouldn't are preserved rather than being forced to power-of-two sizes.
+  - Fixed a few niche crash/hard-error with friendlier error messages.
+  - Fixed an issue where using the 'Restore Defaults' button in the racial settings editor would fail.
+   
+
+
 v3.0.5.3
 + DAWNTRAIL UPGRADES
   - Fixed issues where Specular textures on gear were getting improperly altered.
