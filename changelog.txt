@@ -10,6 +10,17 @@ IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.5.3
++ DAWNTRAIL UPGRADES
+  - Fixed issues where Specular textures on gear were getting improperly altered.
+  - Fixed issues where Specular textures on gear were not having the correct shader keys/samplers assigned
+     + As usual with these issues, if you had a mod affected by these issues, it must be re-upgraded from the original Endwalker version.
+  
++ OTHER
+  - Fixed issues where Bust MaxY value for racial scaling was getting mangled in some situations
+  - Fixed issue where the material's Colorset would be bashed strangely when changing ShaderPacks in the UI.
+
+
 v3.0.5.2
 + DAWNTRAIL UPDATES
   - Updated Hair conversions to try to salvage a few niche cases.
