@@ -10,6 +10,18 @@ IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.5.2
++ DAWNTRAIL UPDATES
+  - Updated Hair conversions to try to salvage a few niche cases.
+  - In particular, Hair Mashups which contain materials but not textures should now be automatically converted properly to the new texture paths.
+    - As usual, if you were affected by these, please re-run the original Endwalker modpack through the update tool again.
+	
+  - The Upgrade Modpack tool will now notify the user when the modpack did not need changes/was not actually changed.
+
++ BUGFIXES
+  - Increased cache busy timeout to try to prevent cases of errors due to disk delay.
+
+
 v3.0.5.1
 + DAWNTRAIL UPDATES
   - Heliosphere JSON files are now properly preserved during Penumbra library updates.
