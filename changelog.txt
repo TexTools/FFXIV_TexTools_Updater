@@ -10,6 +10,18 @@ IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.5.1
++ DAWNTRAIL UPDATES
+  - Heliosphere JSON files are now properly preserved during Penumbra library updates.
+  - Dawntrail Updater now has better status displays, indicating when mods are unchanged (and providing some guidance on why)
+  - Added more human-readable warnings/errors for some rare/unusual issues.
+  - UI now better specifies that it will update fluffy-tails as well.
+
++ MODPACKING
+  - Loading an FBX into the advanced modpack UI will now automatically scrub materials from 0-Vertex Mesh Groups to ensure they do not cause rendering errors.
+  - TTMP files created via committing a transaction now have the correct internal modpack name.
+
+
 v3.0.5.0
 + BUGFIXES
    - Fixed issues with Windows Long Path support.  Long Path support should now work when upgrading penumbra Libraries with really really long file names.
