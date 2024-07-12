@@ -10,6 +10,12 @@ IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.5.5
++ BUGFIXES
+  - Fixed mod imports not being correctly upgraded for Dawntrail if they were imported during the [Preparing] stage of a Transaction.
+  - Fixed a number of warnings not popping up due to being invoked on the wrong system thread.
+
+
 v3.0.5.4
 + MATERIAL CREATION
   - The Unique Textures button has returned, now with proper automatic-unique texture paths for all material types.
