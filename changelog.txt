@@ -10,6 +10,22 @@ IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.5.6
++ BUGFIXES
+  - Fixed multiple issues of the model display double or triple refreshing when performing large operations (Ex. Importing modpacks, cancelling transactions, etc.)
+  - Fixed issues where the Material UI would display unnecessary unsaved changes warnings when saving colorsets.
+  - Fixed a prompt during start over ignoring the user's selection with regards to cancelling their current Transaction.
+  - Fixed New Material names/paths being incorrect for weapons.
+ 
++ MISC
+  - The Export Files dialog now starts will all files de-selected.
+  - The Export Files Dialog now has 'select/clear all/visible' merged into a single pair of smarter buttons.
+  - Added a new command to the console tools.  /list - Which lists all the constituent files of a given file root. (Ex. c0101h0012)
+  - Added more aggressive mod safety checks to ensure invalid original offsets cannot be saved to disk.
+  - Added Race/Gender information to the names for Hair/Face/Etc. entries to make them more searchable.
+  - Made a few errors during Dawntrail updates more human readable.
+  
+
 v3.0.5.5
 + BUGFIXES
   - Fixed mod imports not being correctly upgraded for Dawntrail if they were imported during the [Preparing] stage of a Transaction.
