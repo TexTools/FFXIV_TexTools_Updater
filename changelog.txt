@@ -10,6 +10,22 @@ IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+
+v3.0.5.6
++ DAWNTRAIL UPDATES
+  - Added automatic skin-repathing for diffuse and normal textures.
+    - This should preserve custom body tattoos in almost all cases, and will *partially* preserve old scale mods.
+  - The upgrade disclaimer has been updated appropriately.
+ 	
++ MISC
+  - Output Skin textures in FBX import should now be significantly more accurate to their in-game and TT renderer color.
+  - Renderer 'Reflection' default reduced from 5 to 2 to reduce skin discoloration caused by it.
+  - The TT /Skeletons/ cache will be automatically cleared out upon installing this update (One-time action to get rid of old EW skeleton files)
+
++ BUGFIXES
+  - Fixed an issue where standalone files were not being shown in the Modlist menu properly when under the 'by modpack' view type.
+
+
 v3.0.5.6
 + BUGFIXES
   - Fixed multiple issues of the model display double or triple refreshing when performing large operations (Ex. Importing modpacks, cancelling transactions, etc.)
