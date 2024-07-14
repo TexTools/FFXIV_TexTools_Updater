@@ -10,6 +10,39 @@ IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.6.1
++ PENUMBRA/PMPS
+  - Fixed an issue where files would not be read properly in PMPs or Penumbra Folders if both the DefaultOption group and custom groups were both in use.
+  - Fixed an issue where mod tags would not be copied through when reading/writing PMPs or Penumbra Folders
+  - Fixed saved PMP group numbers starting at 0 in the json group names instead of 1.
+  
++ DAWNTRAIL UPDATES
+  - Au Ra tail diffuse textures are now automatically repathed.
+  - Rolled back normal map repathing for body textures, as the format changed enough to make it problematic.
+  
++ TEXTURES
+  - Added -bc q flag to BC7 DDS Conversions to improve the conversion quality.
+  
++ MODELS
+  - The Model Importer will now error if the total vertex data size is past FFXIV's limits.
+  - Models will now smartly remove unused vertex information and compress the vertex data types if necessary in order to try to fit large models into the vertex data size limits, when possible.
+  
+
+
+v3.0.6.0
++ DAWNTRAIL UPDATES
+  - Added automatic skin-repathing for diffuse and normal textures.
+    - This should preserve custom body tattoos in almost all cases, and will *partially* preserve old scale mods.
+  - The upgrade disclaimer has been updated appropriately.
+     
++ MISC
+  - Output Skin textures in FBX import should now be significantly more accurate to their in-game and TT renderer color.
+  - Renderer 'Reflection' default reduced from 5 to 2 to reduce skin discoloration caused by it.
+  - The TT /Skeletons/ cache will be automatically cleared out upon installing this update (One-time action to get rid of old EW skeleton files)
+
++ BUGFIXES
+  - Fixed an issue where standalone files were not being shown in the Modlist menu properly when under the 'by modpack' view type.
+
 
 v3.0.5.6
 + DAWNTRAIL UPDATES
