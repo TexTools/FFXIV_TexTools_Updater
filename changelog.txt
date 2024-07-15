@@ -10,6 +10,24 @@ IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.6.2
++ DAWNTRAIL UPDATES
+  - Penumbra Library Updates can now be run faster, in batches of up to 20 mods at a time.
+  - Penumbra Library Updates now allow you to opt out of file compression if you so choose.
+  - You may now select Multiple modpacks at once from the modpack upgrader.
+    - When upgrading multiple modpacks at once via this option, the finished modpack files will be saved to the default location. (Same place as the original modpack with _dt added onto the end of the file name)
+
++ BUGFIXES
+  - Fixed MipMaps not being generated on textures in custom/unusual directories.
+
++ UI
+  - Weapons and Accessories have now been split off from Gear into their own top level categories.
+  - Weapons now have sub-categories for each job/weapon type.
+  - Fixed IMC errors when opening/editing Offhand weapons for Viper/Monk/etc.
+  - Fixed model reading for Monk Glove-type offhand weapons.
+
+
+
 v3.0.6.1
 + PENUMBRA/PMPS
   - Fixed an issue where files would not be read properly in PMPs or Penumbra Folders if both the DefaultOption group and custom groups were both in use.
