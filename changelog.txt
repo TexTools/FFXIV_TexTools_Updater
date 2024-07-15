@@ -9,6 +9,29 @@ IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER
 
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
+v3.0.6.3
++ DAWNTRAIL UPDATES
+  - Added some missing skin diffuse paths for repathing old skin diffuses.
+  - Added error logging during Penumbra Libraray upgrades.
+  - Mod Tags should now be properly preserved when updating PMPs/Penumbra Folders
+  
++ COLORSET EDITOR
+  - Moved some unknowns down from the Edit Raw buttons into the main UI.
+  - Renamed Submat Unknown and Wetness based on new information.
+  - Editor will now stay on the same row after saving the file.
+  - Editor now shows the correct Dye names and hides unused fields when editing CharacterLegacy materials.
+  
++ MODEL EDITOR
+  - UV3 layer editing has been added (Thanks Dawntrail NPC Lady!)
+  - Vertex Color 2 currently removed from 3DS Max I/O.
+  
++ MISC
+  - Improved the Alpha/Transparency display for textures in the texture view.
+  - Added confirmation prompt when changing SHPKs in the Material Editor
+  
++ BUGFIXES
+  - Fixed a crash when trying to edit manipulations on some old TTMPS
+  - Fixed a crash when adding EQP manipulations via the Advanced modpack editor
 
 v3.0.6.2
 + DAWNTRAIL UPDATES
