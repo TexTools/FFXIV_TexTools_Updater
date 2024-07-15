@@ -14,6 +14,7 @@ v3.0.6.3
   - Added some missing skin diffuse paths for repathing old skin diffuses.
   - Added error logging during Penumbra Libraray upgrades.
   - Mod Tags should now be properly preserved when updating PMPs/Penumbra Folders
+  - Fixed old TTMPs failing to update if their image names contained invalid unicode characters.
   
 + COLORSET EDITOR
   - Moved some unknowns down from the Edit Raw buttons into the main UI.
