@@ -9,6 +9,13 @@ IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER
 
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
+v3.0.6.5
++ HOTFIXES
+  - Fixed FBX Importer failing on importing mods without UV3 Layers
+  - Fixed a startup crash if TexTools was on a non-existent drive.
+  - Fixed a race-condition during batch Dawntrail conversions that could cause conversion to fail.
+  - Fixed importing oddly/incorrectly packed PMPs
+
 v3.0.6.3
 + DAWNTRAIL UPDATES
   - Added some missing skin diffuse paths for repathing old skin diffuses.
