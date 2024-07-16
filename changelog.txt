@@ -5,7 +5,13 @@ DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
-v3.0.6.7
+v3.0.6.9
++ DAWNTRAIL UPGRADES
+  - Fixed a configuration issue that was causing Penumbra Library Updates to not update partial hair/tail/tattoo mods.
+    - (These mods worked fine via the individual modpack updater, but would be fully or partially skipped via the library tool) 
+
+
+v3.0.6.8
 + MODEL IMPORT
   - Fixed an issue where vertex colors were lost on import if the model did not have UV3 data.
   - Added warning for full white vertex colors on specifically eyes.
