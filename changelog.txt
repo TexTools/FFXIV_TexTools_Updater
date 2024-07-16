@@ -9,6 +9,17 @@ IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER
 
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
+v3.0.6.7
++ MISC
+ - The Colorset Square/3D Render has been fixed, and now properly shows dyes, tile materials, and a rough approximation of most colorset data.
+ - Changed "Dye All Rows" to optionally dye by dye channel.
+
++ BUGFIXES
+ - Fixed Multi-Layer DDS file reading.
+ - Fixed racial convert on import having unpredictable results.
+ - Fixed an error prompt sometimes causing the application to crash on startup.
+
+
 v3.0.6.5
 + HOTFIXES
   - Fixed FBX Importer failing on importing mods without UV3 Layers
