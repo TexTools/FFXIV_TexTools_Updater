@@ -1,13 +1,15 @@
-TexTools 3.0.X.X
-PLEASE READ THESE NOTES IN FULL BEFORE UPDATING
-
 DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 如果你所在的地区没有《黎明轨迹》扩展包，请不要安装此更新
 해당 지역에 DAWNTRAIL 확장팩이 없는 경우 이 업데이트를 설치하지 마십시오.
 
-IF YOU ARE CURRENTLY USING TEXTOOLS 2.X, PLEASE ENSURE YOU HAVE USED [START OVER] IN TEXTOOLS AND HAVE NO MODS INSTALLED BEFORE UPDATING.
-
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
+
+
+v3.0.6.7
++ MODEL IMPORT
+  - Fixed an issue where vertex colors were lost on import if the model did not have UV3 data.
+  - Added warning for full white vertex colors on specifically eyes.
+  - (Previous missed patch note): Updated model import warnings
 
 v3.0.6.7
 + MISC
