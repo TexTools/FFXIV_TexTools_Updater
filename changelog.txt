@@ -6,8 +6,17 @@ Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZ
 
 
 
+v3.0.7.2
++ BUGFIXES
+  - Models are now saved with smaller/more reasonable bounding boxes.  This should fix issues close-up characters being invisible in portraits, and monster model click-boxes being too large.
+  - Xenos now renders correctly in the model viewer again.
+  - Fixed loading and converting old TTMPs that have multiple copies of the same file in the same option.
+  - Fixed Hrothgar Female Bibo model rendering.
+  - Fixed Item Converter failing if the model referenced monster textures.
+
+
 v3.0.7.1
-+NEW SETTINGS
++ NEW SETTINGS
   - Added setting for default Image Export format (DDS/TGA/PNG)
   - Added setting for default Modpack Export format (PMP/TTMP2)
 
