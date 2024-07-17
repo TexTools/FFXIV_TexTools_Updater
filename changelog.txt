@@ -5,6 +5,22 @@ DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+
+v3.0.7.1
++NEW SETTINGS
+  - Added setting for default Image Export format (DDS/TGA/PNG)
+  - Added setting for default Modpack Export format (PMP/TTMP2)
+
++ IMAGES
+  - To reflect TGA being a better export format than PNG for textures, TGA has been bumped above PNG in the format list when saving Textures.  (Sorry muscle memory friends)
+  - BMPs now export without transparency, because BMP with transparency is a truly cursed format that should not exist.
+
++ BUGFIXES
+  - Fixed skin resolver being broken.  (Caused various renderer/visual in TT errors, had no effect in game)
+  - Fixed Vertex buffer math being wrong in some cases. (Could cause large models to fail to import when they should've succeeded)
+  
+
+
 v3.0.7.0
 + DAWNTRAIL UPDATES
   - Fixed an issue where hair mods could incorrectly have their DX9 hair textures converted instead of DX11 textures, when using the Upgrade Modpack or Penumbra Library Update functions.
