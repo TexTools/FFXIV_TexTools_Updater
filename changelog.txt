@@ -5,6 +5,15 @@ DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.7.0
++ DAWNTRAIL UPDATES
+  - Fixed an issue where hair mods could incorrectly have their DX9 hair textures converted instead of DX11 textures, when using the Upgrade Modpack or Penumbra Library Update functions.
+
++ MODELS
+  - Model Racial Deformations now fully support deforming to/from NPC races.
+  - The FMV Skeleton selection now includes NPC races.
+
+
 v3.0.6.9
 + DAWNTRAIL UPGRADES
   - Fixed a configuration issue that was causing Penumbra Library Updates to not update partial hair/tail/tattoo mods.
