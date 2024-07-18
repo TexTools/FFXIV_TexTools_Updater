@@ -5,6 +5,13 @@ DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.7.4
++ BUGFIXES
+  - Fixed model reading/importing for old Furniture models.
+  - Fixed an issue where importing an FBX with new mesh groups could error on import.
+  - Fixed an issue where Hrothgar Tail variants were missing in the UI.
+
+
 v3.0.7.3
 + MODEL/DAWNTRAIL UPGRADES
   - Fixed an issue where "Tangent" data was being written to MDLs, which apparently does not actually function as Tangent data (at least on Hair).
