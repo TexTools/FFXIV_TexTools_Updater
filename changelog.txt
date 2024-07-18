@@ -5,6 +5,17 @@ DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.7.5
++ NEW
+  - Added "Shrink Modpack" button in the advanced modpack creator.  This will repack and/or clean up many files in the modpack and optionally shrink the texture sizes based on your settings.
+    - As part of this, models will be updated to v6 if they are not already, and their bounding box information will be reset to fit with Dawntrail requirements.
+    
+  - The 3D Colorset Square is now a sphere, and has proper UV Tiling settings to display the sub-materials more accurately.
+
++ BUGFIX
+  - The Penumbra Library upgrade tool will no longer crash the application if one of the folders it was set to upgrade was deleted.
+  
+
 v3.0.7.4
 + BUGFIXES
   - Fixed model reading/importing for old Furniture models.
