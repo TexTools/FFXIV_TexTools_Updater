@@ -5,6 +5,22 @@ DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.7.3
++ MODEL/DAWNTRAIL UPGRADES
+  - Fixed an issue where "Tangent" data was being written to MDLs, which apparently does not actually function as Tangent data (at least on Hair).
+    - This caused hair models to become Shiny after being saved, or when upgrading old TTMP files for Dawntrail.
+	  - (This bug did not apply to Penumbra Library or .PMP modpack upgrades)
+  
+  - Fixed models not properly exporting to FBX with Vertex Alpha1 data.
+  - The Bounding Box updates from v3.0.7.2 are now applied to all Dawntrail upgrades as well when updating MDLs from v5 to v6.
+
++ MINOR
+  - Made some more missing safe/unsafe mode errors friendlier.
+  - Removed a slight MTRL Bitflag tweak that appears to no longer be valid in DT (but did nothing)
+  - Fixed exported FBX Extra Skeleton always coming from base game files rather than Transaction state.
+  - Minor fixes for some more niche cases of particularly weird TTMPs/PMPs failing to import.
+  - Dawntrail upgrades are now disabled if TT is attached to an Endwalker install (rather than improperly upgrading).
+
 
 v3.0.7.2
 + BUGFIXES
