@@ -5,6 +5,31 @@ DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.8.0
++ MODEL IMPORTING
+  - The Model Editor has been reorganized slightly.
+  - You can now edit Vertex data globally, per-mesh, or per-part.
+  - Vertex Data edit screen now has much more detail
+  - Vertex Data edit screen now includes tools for managing Anisotropic Flow data for Hair
+  - You can now edit the base level Model Flags, such as shadow casting and weather occlusion effects.
+  - Some settings such as Clear Vertex Color/Alpha have been moved into the editor, as they typically should not be blindly applied to the entire model.
+
++ HAIR / ANISOTROPIC FLOW DATA
+  - Anisotropic Flow data for hair is now editable. This data is piped to Vertex Color 3 for FBX Import/Export
+    - NOTE: This means this data is NOT visible/editable when exporting for 3DS Max, as Max cannot work with multiple vertex color channels.
+  - This data controls the way specular highlights behave on hair.  In particular, when properly authored, it makes the specular/lighting highlights properly follow the flow of the hair.
+  - The data is a tangent space flow map painted onto the Vertex Color 3 layer, however, for the sanity of everyone involved, TexTools also offers the ability to generate Flow data based on UV map layout in the Edit Vertex Data segment of the model editor.  This should allow you to generate proper flow map structure easily as long as your hair strands are oriented in a consistent direction.
+
++ BUGFIXES
+  - Fixed a crash bug in the Edit Manipulations menu when attempting to remove non-existent Manipulations
+  - Fixed an error that could cause race conversions to fail.
+  - Binormal/Tangent Calculations are now much more accurate to SE's Expectations/systems, and are now also MUCH faster.
+    - In some cases, re-importing your old FBX's may remove persistent niche seams that you couldn't get rid of easily before.
+  - Fixed a UI error in the Shader Key menu that could sometimes show invalid shader keys when swapping keys around.
+  - Updated the Shader info database.
+  - Removed extraneous info from the default Shader DB to help shrink application/download size.
+  
+
 v3.0.7.5
 + MINOR/BUGFIX
   - Fixed DDS BC7 Exports for Gimp
