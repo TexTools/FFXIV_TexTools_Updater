@@ -5,6 +5,24 @@ DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.8.1
++ DOUBLE CLICK IMPORT / MODPACK FILE HANDLING
+ - The behavior for Double-click importing modpacks from windows has changed.
+ - You will now be prompted with a small screen where you may choose from a number of new options:
+   - Upgrade and Import to Penumbra:  This will automatically update the modpack and import the modpack directly into Penumbra.
+   - Upgrade and Import to FFXIV (Unsafe): Updates and imports the file to TexTools/The FFXIV files system (previously default behavior)
+   - Upgrade Modpack for Dawntrail: Upgrades the Modpack and prompts you for a location to save the result.
+   - Shrink Modpack: Shrinks the Modpack and prompts you for a location to save the result.
+   
++ UI
+  - A new [Import Modpack to Penumbra] option has been added to the main Mods menu, which functions the same as above. (Upgrades a given Modpack and imports it to Penumbra)
+
++ BUGFIXES
+  - TT will now correctly identify the user's quick-launcher attached FFXIV install on first time startup and set that as their default FFXIV install, if the quick launcher is installed.
+  - Fixed some misc issues where TexTools could fail to startup properly due to corrupt or invalid settings.
+  - Import only mode and the Console tool now use unique temporary folders per-run to prevent issues when performing simultaneous execution.
+
+
 v3.0.8.0
 + MODEL IMPORTING
   - The Model Editor has been reorganized slightly.
