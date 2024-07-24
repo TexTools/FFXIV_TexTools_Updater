@@ -6,6 +6,20 @@ Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZ
 
 
 v3.0.8.1
++ NEW
+  - Added 'Regenerate Skeletons' button to the Settings.  This will rebuild the skeleton cache from the current system state, to ease the process of adding custom bone transformers.
+  - Added 'Add Colorset' button on Materials that don't have colorsets.  I have no idea if the game will actually support or read colorsets on shaders that do not have them already, but now you can test and find out. (You will probably need to add an Index sampler/texture by hand)
+
++ BUGFIXES
+  - Fixed HDR Color edit throwing an error when trying to save the colors.
+  - Fixed some more niche install location errors.
+  - Binormals/Tangents are now automatically recalculated after racial transforms to avoid weird transform bugs.
+  
++ MISC
+  - Updated Auto-Updater version and ImageSharp versions.
+
+
+v3.0.8.1
 + DOUBLE CLICK IMPORT / MODPACK FILE HANDLING
  - The behavior for Double-click importing modpacks from windows has changed.
  - You will now be prompted with a small screen where you may choose from a number of new options:
