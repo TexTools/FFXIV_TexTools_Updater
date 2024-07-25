@@ -5,6 +5,14 @@ DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.8.3
++ BUGFIX
+  - Fixed crash/export failures when exporting racially converted models.
+
++ MINOR
+  - Changed "Penumbra Manipulations" to "Metadata Manipulations" in the advanced editor to better reflect their purpose.
+
+
 v3.0.8.2
 + NEW
   - Added 'Regenerate Skeletons' button to the Settings.  This will rebuild the skeleton cache from the current system state, to ease the process of adding custom bone transformers.
