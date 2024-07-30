@@ -5,6 +5,18 @@ DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.8.5
++ MODELS
+ - Fixed Binormal/Tangent data not being properly written to FBX files.
+ - Fixed some niche quirks/seams with racial converting models.
+
++ MISC
+ - Verbiage for the various Colorset Editor fields has been updated to match Penumbra's upcoming Material Editor updates.
+   - In specific:
+      Shader Effect ID => Sphere Map ID
+	  Submaterial ID => Tile Map ID
+   
+
 v3.0.8.4
 + MODEL IMPORTING
   - Automatic SimpleHeels attribute calculation has been added.  This will automatically calculate and add SimpleHeels style heel offset attributes to foot/leg/body models that stick through the floor, based on their depth, to bring the character back to [0] offset.
