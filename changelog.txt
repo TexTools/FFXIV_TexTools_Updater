@@ -11,6 +11,9 @@ v3.0.8.6
   - Added additional catches to avoid crashing for various invalid states during application startup & when using the Penumbra Library converter.
   - Binormal Handedness is now correctly calculated when importing a model using existed Binormal/Tangent data in the FBX file, based on said imported Binormal/Tangent data.
   - Removed the {Variant} Token in the texture path tokenizer due to it largely just being confusing and sometimes adding the wrong variant ID.
+  
+- BUGFIX
+  - Fixed .PMPs being incorrectly installed using the simple import dialog instead of the wizard importer in specific circumstances.
 
 
 v3.0.8.5
