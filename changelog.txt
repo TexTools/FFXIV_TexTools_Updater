@@ -5,6 +5,14 @@ DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
 
+v3.0.8.6
++ MINOR
+  - Updated Verbiage in the Colorset Editor to match Penumbra's Material editor on more fields.
+  - Added additional catches to avoid crashing for various invalid states during application startup & when using the Penumbra Library converter.
+  - Binormal Handedness is now correctly calculated when importing a model using existed Binormal/Tangent data in the FBX file, based on said imported Binormal/Tangent data.
+  - Removed the {Variant} Token in the texture path tokenizer due to it largely just being confusing and sometimes adding the wrong variant ID.
+
+
 v3.0.8.5
 + MODELS
  - Fixed Binormal/Tangent data not being properly written to FBX files.
