@@ -4,6 +4,19 @@ DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
 
 Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
 
+v3.0.8.7
++ MINOR
+  - Updated Item Sets
+  - New selfsigned Sha256 signatures on Textools, Modding Framework and Installer files.
+
+- BUGFIX
+  - Quick hackfix to ensure new 7.1 face models don't trigger old broken mod model fixes. May need further review/testing with really old models
+  - Recalculate mipmap offsets after regeneration
+  - Fix forward slashes in long paths causing error
+  - No inverting the normals!
+  - Import the 'default option' from PMP files with multiple options
+  - Fix Case sensitivity issue generating ExtraFiles list for PMPs
+
 
 v3.0.8.6
 + MINOR
