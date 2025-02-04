@@ -1,9 +1,37 @@
-DO NOT INSTALL THIS UPDATE IF YOUR REGION DOES NOT HAVE THE DAWNTRAIL EXPANSION
-如果你所在的地区没有《黎明轨迹》扩展包，请不要安装此更新
-해당 지역에 DAWNTRAIL 확장팩이 없는 경우 이 업데이트를 설치하지 마십시오.
+-- REQUIRES FFXIV v7.1 --
+v3.0.9.0  
++ MODEL IMPORTING
+  - Better support for new 7.1 face modding, without introducing neck seams or lighting bugs
+    - NOTE: You must import a model file over a vanilla 7.1 face -- not an already modded one -- in order to preserve neck data
+      - There is no automatic upgrade process when importing a mod containing a pre-7.1 face model
+      - To verify presence of neck data: More Actions > Show Raw MDL Info > Other Data > Neck Morph
+      - Models containing Neck Morph data are only compatible with Dawntrail Patch 7.1 and later
 
-Full 3.0 Handbook/Details: https://docs.google.com/document/d/1-NnGriuqhh5ZmItSZSH-nrIgsiFBN2_gFWWzPRVk-3s
++ MODPACK EDITING
+  - Allow non-destructive editing of PMP Modpacks which contain information in the "Default" mod
+  - Added modpack editing support for: Atch manipulations
+  - Added modpack editing support for: OnlyAttributes flag on IMC Group entries
+  - Added modpack editing support for: Description field for IMC Groups
+    - NOTE: Atch manipulations are supported for PMP Modpacks only. IMC Groups are also available for PMP Modpacks only.
+    - NOTE: Importing modpacks containing Atch manipulations, or the OnlyAttributes flag, is NOT supported
 
++ MINOR
+  - Some more items utilizing VFX can now be loaded and edited (e.g. Wind-up Sun / Moon minions)
+  - PMP support improvements which are required for future Penumbra compatibility
+  - Improved loading times for large model files
+
++ BUGFIX
+  - Fix "Edit Model" window crash on Chinese language
+  - Fix "Restore Mod Backup" button always failing (and causing your entire transaction / mod to be deleted ...)
+  - Patch 7.1 face models that previously did not load will now load correctly
+
+- KNOWN ISSUES
+  - Sometimes after cancelling/committing a transaction, the 'Save to FFXIV' button will remain greyed out until changing items.
+  - The Roseblood Coat's Metadata is not editable or exportable currently.
+  - The Project File Tracker can lose track of files in some instances/setups.
+
+
+-- REQUIRES FFXIV v7.0 --
 v3.0.8.7
 + MINOR
   - Updated Item Sets
