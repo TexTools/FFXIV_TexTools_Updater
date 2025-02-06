@@ -1,5 +1,5 @@
 -- REQUIRES FFXIV v7.1 --
-v3.0.9.1
+v3.0.9.2
 + BUGFIX
   - Everyone was fire
   - Correction to IMC group mask application when importing modpacks
