@@ -1,5 +1,5 @@
 -- REQUIRES FFXIV v7.1 --
-v3.0.9.0  
+v3.0.9.1
 + MODEL IMPORTING
   - Better support for new 7.1 face modding, without introducing neck seams or lighting bugs
     - NOTE: You must import a model file over a vanilla 7.1 face -- not an already modded one -- in order to preserve neck data
