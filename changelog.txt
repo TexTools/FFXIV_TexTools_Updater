@@ -1,3 +1,16 @@
+v3.0.9.5
++ MINOR
+  - Updated Item Sets
+  - Updated Shader Info
+  - Installer now sets write permissions for Converters, Resources and Skeletons folders
+    - Re-installation required for existing installs, overwriting is sufficient, no need to uninstall first.
+  - Deduplicated the libs packaged
+ 
++ BUGFIX
+  - Importing modified heads no longer causes a square shadow around the user
+     - This required dropping certain data from the head,  As a consequence, shp_sdw_a no longer affects these heads.
+   - ColorSet editor updated to list 7.2+ Dye's going forward (The Pesky Column 26 issue).     
+
 -- REQUIRES FFXIV v7.1 --
 v3.0.9.2
 + BUGFIX
