@@ -1,3 +1,32 @@
+v3.1.0.0
+For full contribution and change descriptions of the fixes listed, please visit the release page at https://github.com/TexTools/FFXIV_TexTools_UI/releases/tag/v3.1.0.0
+
++ MINOR
+  - Updated Item Sets
+  - Updated TexConv
+  - Updated bundled VC2022 Redists in Textools Installer
+  - Replaced DotNetZip with DotNetZipOriginal (Same author, new library)
+   
++ Major
+  - Handling of Shpx
+  - ConsoleTools capabilities enhanced
+  - 
+
++ BUGFIX
+ - Fix colorset row previews
+  - Stain/Dye List now correctly links names to dyes
+  - Error on CHN clients as of their 7.2 update
+  - TTMP files now preserve Unicode characters correctly
+    - TTMP's that were already created using a preview image including such characters will require recreating the package, adding the affected image back in its relevant page.
+    - This fix does not allow the mod upgrader to work on affected packages, while the affected file does exist in the ttmp, the name was scrambled on creation and the TTMPL refers to the correct name, with this in mind you can rename the misnamed preview image file by retrieving the correct name in the TTMPL file and renaming the affected file using Winzip or 7zip.
+  - Erroneous negative number causing import failure
+  - ConsoleTools wasn't actually writing files to the given path
+
++ Major Bugfix
+  - Complete reworking of MIP handling for compressed formats, 
+    - Previously all mip levels above 0 were invalid due to recording the wrong offsets,  this resulted in corrupted/glitched visuals when the game was run at less than maximum texture settings, and may also occur as mip levels changed with object distance.
+    - this rework also corrects headers for DDS  so Mipmaps can be imported directly to tools like Gimp instead of being dropped on import.
+
 v3.0.9.5
 + MINOR
   - Updated Item Sets
