@@ -1,6 +1,16 @@
 v3.1.0.1
 + MINOR
-  - Updated Emote EX Table offset for FFXIV patch 7.4
+  - Updated Emote EX Table offset for FFXIV patch 7.4 Global
+  - Updated Icon offset for Korean 7.2+ client
+  - Allow double clicking to open files from the Transaction Manager window
+  - Additional Penumbra attach redraw modes
+  - body+legs gear type supported (Star pilot suit)
+  - Updated PBD Support for missing bone.
+  - Updated Racial deforms, normals should no longer invert when enabling races in the material set.
+
++ Major
+  - Initial Support for TW Client (Read only/Safe Mode only right now)
+  - Rework of string tables, with ongoing improvements to localisations
 
 v3.1.0.0
 For full contribution and change descriptions of the fixes listed, please visit the release page at https://github.com/TexTools/FFXIV_TexTools_UI/releases/tag/v3.1.0.0
