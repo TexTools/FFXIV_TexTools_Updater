@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
-    <version>3.1.0.0</version>
-    <url>https://github.com/TexTools/FFXIV_TexTools_UI/releases/download/v3.1.0.0/FFXIV_TexTools_v3.1.0.0.zip</url>
+    <version>3.1.0.1</version>
+    <url>https://github.com/TexTools/FFXIV_TexTools_UI/releases/download/v3.1.0.1/FFXIV_TexTools_v3.1.0.1.zip</url>
     <mandatory mode="2">true</mandatory>
 </item>
