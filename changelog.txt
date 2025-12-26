@@ -1,3 +1,11 @@
+v3.1.0.2
++ Minor
+  - Fixed CHN/KOR/TW Emote Table access
+  - Fixed Deadlock on Advanced Modpack By-Set selection.
+ 
++ Major
+  - Gear list localizations nearly, if not complete for the Framework set list.
+
 v3.1.0.1
 + MINOR
   - Updated Emote EX Table offset for FFXIV patch 7.4 Global
