@@ -1,3 +1,7 @@
+2026-07-03
++ MISC
+  + Penumbra v1.7 Support
+
 2023-03-29
 +  Security
    + Temporarily disabled access to 0b0000 due to CVE affecting FFXIV's LUA engine allowing code execution, the details will be posted soon.
