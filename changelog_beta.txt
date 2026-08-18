@@ -1,3 +1,8 @@
+2026-08-17
+- Updated Penumbra handling to look for config in new Penumbra 1.7 locations.  (Fixes penumbra attach/etc.)
+- Updated default textures to 64x64 and more sane default base colors for Index/Mask textures.
+
+
 2026-07-03
 + MISC
   + Penumbra v1.7 Support
