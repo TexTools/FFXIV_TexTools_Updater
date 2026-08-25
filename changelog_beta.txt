@@ -1,7 +1,11 @@
+2026-07-25
++ Misc
+  - Behavior during Penumbra Attached has been changed to no longer deduplicate files.
+  - This resolves issues where altering files seemingly modifies more files than intended, but may result in marginally larger attach-mod size. (Does not affect .pmp export behavior)
+
 2026-08-17
 - Updated Penumbra handling to look for config in new Penumbra 1.7 locations.  (Fixes penumbra attach/etc.)
 - Updated default textures to 64x64 and more sane default base colors for Index/Mask textures.
-
 
 2026-07-03
 + MISC
